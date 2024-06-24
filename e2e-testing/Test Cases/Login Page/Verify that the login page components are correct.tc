@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that the login page components are correct</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62cdff75-ae59-4edc-82aa-fe4cb0ab7a31</testCaseGuid>
+</TestCaseEntity>

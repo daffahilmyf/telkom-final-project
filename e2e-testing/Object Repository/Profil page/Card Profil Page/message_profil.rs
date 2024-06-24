@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>message_profil</name>
+   <tag></tag>
+   <elementGuidId>dede19a5-589b-4784-bc0f-7c0490eacad3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div/div/div[2]/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>af4d5f17-c1e1-4f5e-a07b-d6f372ea578e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Silahkan melengkapi Profil Anda untuk mendapatkan Keuntungan yang lebih banyak dari Fitur Agreepedia</value>
+      <webElementGuid>524bb3b3-e8cf-46ca-86ff-b0dc193f60c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[@class=&quot;propail&quot;]/div[@class=&quot;tambah4&quot;]/div[@class=&quot;pratinjau&quot;]/div[@class=&quot;atas&quot;]/div[@class=&quot;kanan&quot;]/div[3]/div[1]</value>
+      <webElementGuid>91a9929c-cc2a-49a7-9ad0-37106447b117</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div/div/div[2]/div[3]/div</value>
+      <webElementGuid>8041af17-30b6-44d2-951d-97c9cb788b07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update Profile'])[1]/following::div[1]</value>
+      <webElementGuid>58a7f138-b934-4ffb-a0df-69308ba9e83a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pekerjaan'])[1]/following::div[2]</value>
+      <webElementGuid>73bc961b-c9f0-4188-9f62-e177a9cd4cd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[3]</value>
+      <webElementGuid>b090b412-337c-47fa-8387-9a60025880bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::div[3]</value>
+      <webElementGuid>d7719f20-09cf-410e-af26-17d52522cd4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div</value>
+      <webElementGuid>eb923371-8d02-4827-be74-1b18144f33bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Silahkan melengkapi Profil Anda untuk mendapatkan Keuntungan yang lebih banyak dari Fitur Agreepedia' or . = 'Silahkan melengkapi Profil Anda untuk mendapatkan Keuntungan yang lebih banyak dari Fitur Agreepedia')]</value>
+      <webElementGuid>5a17c1a4-b9b9-4adf-9847-c7a9594d025c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

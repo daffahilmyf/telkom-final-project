@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Agree Model</name>
+   <tag></tag>
+   <elementGuidId>be3a012c-5725-44ae-ba66-3a68c109367c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[3]/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>47dbbd12-1561-4dcd-b044-da9b1133b3f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kartu-1 flex-y-between-start</value>
+      <webElementGuid>2ba0f122-11db-4b29-90e6-3a385ed10f49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Permodalan untuk wirausaha pertanian dan petani kecilSaya Mau Baca</value>
+      <webElementGuid>b53ebe89-1b9a-4176-9c87-f63c9118bbd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[1]/div[@class=&quot;home-3 flex-y-between&quot;]/div[@class=&quot;holding&quot;]/div[@class=&quot;kartu-1 flex-y-between-start&quot;]</value>
+      <webElementGuid>87527a57-3240-458d-9f7a-9641cb812a07</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[3]/div[2]/div[2]</value>
+      <webElementGuid>e0a2285f-c6fc-4549-bb53-d682c7147679</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya Mau Baca'])[1]/following::div[1]</value>
+      <webElementGuid>883437c4-9aab-4f79-91fb-4c6dc6211269</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cara cepat dan mudah sourcing komoditas dan monitoring petani'])[1]/following::div[2]</value>
+      <webElementGuid>eaf57459-ba13-4bed-9c69-8c3ea909f2da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div[2]</value>
+      <webElementGuid>4be98397-72f7-4e05-8332-ca6002c00924</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Permodalan untuk wirausaha pertanian dan petani kecilSaya Mau Baca' or . = 'Permodalan untuk wirausaha pertanian dan petani kecilSaya Mau Baca')]</value>
+      <webElementGuid>45d13a60-6902-4c3b-af94-9f2c84b4fcbc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

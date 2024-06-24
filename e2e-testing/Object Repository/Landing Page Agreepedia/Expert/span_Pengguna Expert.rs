@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Pengguna Expert</name>
+   <tag></tag>
+   <elementGuidId>f40c9e07-5fb8-4e96-abae-843f882e5472</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-register']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.expert</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>85cf9eab-76d6-4547-8598-e711c0bafaa1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>expert</value>
+      <webElementGuid>cb1119d7-3459-40d9-a091-a9e03ab2a476</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pengguna Expert</value>
+      <webElementGuid>c8fe3872-be33-4fb9-a2f1-62c09db44e19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-register&quot;)/div[1]/span[@class=&quot;expert&quot;]</value>
+      <webElementGuid>8001ff7d-ae7e-40e2-b37e-16a66edfcdb0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-register']/div/span</value>
+      <webElementGuid>05a08289-205d-4f3a-9ff3-9f5f1bfadd67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih cara daftarmu, semua ada benefitnya, gabung ke komunitas Agrikultur terbesar di Indonesia!'])[1]/following::span[1]</value>
+      <webElementGuid>b143dfb4-7620-484b-b3e3-254f1c564398</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ayo Daftar Agreepedia Sekarang'])[1]/following::span[2]</value>
+      <webElementGuid>7a66a7c6-bc71-4c27-af4c-5d1f5b601c0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengguna Basic'])[1]/preceding::span[1]</value>
+      <webElementGuid>91cfb2c3-b6fe-46d8-bb10-c06f78320f51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PENGGUNA BASIC'])[1]/preceding::span[2]</value>
+      <webElementGuid>0bd32e66-c254-4113-8014-e5288997080c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div[3]/div/span</value>
+      <webElementGuid>deab73ab-ffe3-494d-aa0a-2fc7609e5f0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Pengguna Expert' or . = 'Pengguna Expert')]</value>
+      <webElementGuid>ea26db3f-8300-41a5-b805-0512541c7d6c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

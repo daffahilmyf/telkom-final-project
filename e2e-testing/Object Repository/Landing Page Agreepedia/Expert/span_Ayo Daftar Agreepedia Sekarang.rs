@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Ayo Daftar Agreepedia Sekarang</name>
+   <tag></tag>
+   <elementGuidId>76ccdea3-4672-4e50-8ad9-0ae280d38b49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-register']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#home-register > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2ed02cb5-4b56-40bd-80c1-ff25efcd7c5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ayo Daftar Agreepedia Sekarang</value>
+      <webElementGuid>b3181d54-29ce-470a-baa2-b992ef141fe5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-register&quot;)/span[1]</value>
+      <webElementGuid>83ef567f-6179-46cd-b388-7978f7d894e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-register']/span</value>
+      <webElementGuid>b48dd7fd-34dd-445b-b04d-169bc22f3caa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fitur canggih Agreepedia akan segera hadir spesial buat kamu !'])[2]/following::span[1]</value>
+      <webElementGuid>baad0ae8-3e8a-42db-b5a8-09229d1bbcbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fitur Canggih Agreepedia'])[1]/following::span[3]</value>
+      <webElementGuid>1f70938f-9576-463c-8e70-b9570aae22e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih cara daftarmu, semua ada benefitnya, gabung ke komunitas Agrikultur terbesar di Indonesia!'])[1]/preceding::span[1]</value>
+      <webElementGuid>1a1afafc-eac7-4b3d-b64c-d4b569a591d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengguna Expert'])[1]/preceding::span[2]</value>
+      <webElementGuid>b163e862-5a6e-44f1-9a99-1cd3745e79c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div[3]/span</value>
+      <webElementGuid>01267ac5-fb2d-4e3b-9d9b-6f8896a22f1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Ayo Daftar Agreepedia Sekarang' or . = 'Ayo Daftar Agreepedia Sekarang')]</value>
+      <webElementGuid>42c8f8b3-747f-42cc-8fcf-e68d5e622969</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

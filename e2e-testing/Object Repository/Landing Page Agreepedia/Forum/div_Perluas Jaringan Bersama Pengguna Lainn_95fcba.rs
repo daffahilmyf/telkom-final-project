@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Perluas Jaringan Bersama Pengguna Lainn_95fcba</name>
+   <tag></tag>
+   <elementGuidId>b6ac6c63-3af0-4dd9-854c-5e9ce8699263</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[2]/div[10]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d9e8eddc-20c5-4796-ae48-8ea6fb2628f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>iklan</value>
+      <webElementGuid>fc50bde9-b322-49ea-9f56-2448fe6e7f63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Perluas Jaringan Bersama Pengguna LainnyaBuka forum diskusimu sendiri dan bangun komunitas pertanian bersama penggiat agrikulturFitur Forum akan segera hadir, tunggu ya!</value>
+      <webElementGuid>33540261-7cf6-4d81-80fc-de043a1ae452</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;universal-wrap&quot;]/div[@class=&quot;agreepedia&quot;]/div[@class=&quot;konten&quot;]/div[@class=&quot;iklan-background&quot;]/div[@class=&quot;iklan&quot;]</value>
+      <webElementGuid>192dc82d-fba4-495a-bcc7-4e451500dd09</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[2]/div[10]/div</value>
+      <webElementGuid>7f03812d-de9a-4dc2-a436-515fefd0f13d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diskusikan dan tanyakan permasalahan agrikultur kamu kepada ahli di Agreepedia'])[1]/following::div[2]</value>
+      <webElementGuid>a0032aae-7a7c-4e72-85ae-2962a3c143c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forum Agreepedia'])[1]/following::div[3]</value>
+      <webElementGuid>541d0825-11f1-4418-a87b-c395a44c3af5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div</value>
+      <webElementGuid>5733293b-6276-44c5-bc37-dfb25aa8351e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Perluas Jaringan Bersama Pengguna LainnyaBuka forum diskusimu sendiri dan bangun komunitas pertanian bersama penggiat agrikulturFitur Forum akan segera hadir, tunggu ya!' or . = ' Perluas Jaringan Bersama Pengguna LainnyaBuka forum diskusimu sendiri dan bangun komunitas pertanian bersama penggiat agrikulturFitur Forum akan segera hadir, tunggu ya!')]</value>
+      <webElementGuid>fd2abd38-4ea3-4160-be2c-8beb07e675d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Modal Layanan</name>
+   <tag></tag>
+   <elementGuidId>fb7c4a14-b248-419a-9854-5d5b56313591</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.home-11</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dc74a9e1-4403-447a-adc8-3c7f075120ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>home-11</value>
+      <webElementGuid>5e72a63d-24e8-44ec-b8f2-519034d51990</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Agree PartnerCara cepat dan mudah sourcing komoditas dan monitoring petaniSmart FarmingIoT smart farming untuk meningkatkan efisiensi dan produktivitasAgree ModalPermodalan untuk wirausaha pertanian dan petani kecilAgree PediaUpgrade keilmuan pertanian Anda dan temukan para ahli pertanianAgree MarketJutaan produk berkualitas untuk menunjas bisnis Anda</value>
+      <webElementGuid>81db78a4-45c6-4c00-8df5-b7296057493f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[2]/div[@class=&quot;home-11&quot;]</value>
+      <webElementGuid>56a0aa78-5acf-4cd0-af37-44c905669242</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[2]/div</value>
+      <webElementGuid>42e2a1e8-8099-4a86-ad8f-368860d72989</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/following::div[3]</value>
+      <webElementGuid>b95f1533-496d-4d57-b763-4b34588d1752</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/following::div[3]</value>
+      <webElementGuid>73cc1afb-ecd7-4c16-bc16-9e6d82603c06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div</value>
+      <webElementGuid>9b9109ac-ac58-4560-a722-8c14a2ac11e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Agree PartnerCara cepat dan mudah sourcing komoditas dan monitoring petaniSmart FarmingIoT smart farming untuk meningkatkan efisiensi dan produktivitasAgree ModalPermodalan untuk wirausaha pertanian dan petani kecilAgree PediaUpgrade keilmuan pertanian Anda dan temukan para ahli pertanianAgree MarketJutaan produk berkualitas untuk menunjas bisnis Anda' or . = 'Agree PartnerCara cepat dan mudah sourcing komoditas dan monitoring petaniSmart FarmingIoT smart farming untuk meningkatkan efisiensi dan produktivitasAgree ModalPermodalan untuk wirausaha pertanian dan petani kecilAgree PediaUpgrade keilmuan pertanian Anda dan temukan para ahli pertanianAgree MarketJutaan produk berkualitas untuk menunjas bisnis Anda')]</value>
+      <webElementGuid>91fbee70-f6e5-4105-8492-84300daf0584</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

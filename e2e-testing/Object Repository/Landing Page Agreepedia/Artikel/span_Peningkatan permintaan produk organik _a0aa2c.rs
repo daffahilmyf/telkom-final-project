@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Peningkatan permintaan produk organik _a0aa2c</name>
+   <tag></tag>
+   <elementGuidId>a5ab7288-a772-435b-a81d-d93c4f84f0c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[2]/div[2]/div/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>08565692-86cb-4a63-b53d-e4f304d9ed9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Peningkatan permintaan produk organik untuk produk minyal atsiri di pasar Eropa</value>
+      <webElementGuid>64a386cb-e2e0-402e-b350-f9969f9e4a3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;universal-wrap&quot;]/div[@class=&quot;agreepedia&quot;]/div[@class=&quot;konten&quot;]/div[@class=&quot;berita-utama&quot;]/div[@class=&quot;berita2&quot;]/div[@class=&quot;kanan&quot;]/span[2]</value>
+      <webElementGuid>e361943c-e76c-4432-b735-c0bd0cdc7a25</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[2]/div[2]/div/div/span[2]</value>
+      <webElementGuid>17a6f650-2411-4050-af9e-8d5831a8b475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tren Minyak Atsiri Organik di Pasar Eropa'])[1]/following::span[1]</value>
+      <webElementGuid>29468e46-55bb-4718-ba96-282ea6ad5199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Semua'])[1]/following::span[2]</value>
+      <webElementGuid>34e07700-6bd1-4f44-9e55-cecffe309f95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Komoditas'])[1]/preceding::span[1]</value>
+      <webElementGuid>80233996-ac1f-4bac-aaad-2089647a7469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Industri'])[1]/preceding::span[2]</value>
+      <webElementGuid>a3fefc53-0add-4890-93a3-dff79060b91c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span[2]</value>
+      <webElementGuid>33837725-76fb-4507-bd6a-ecd0882932d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Peningkatan permintaan produk organik untuk produk minyal atsiri di pasar Eropa' or . = 'Peningkatan permintaan produk organik untuk produk minyal atsiri di pasar Eropa')]</value>
+      <webElementGuid>aaa844a0-d0b4-46a1-9b9f-e650b85dfa9a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

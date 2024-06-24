@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that the footer components are visible</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>f820f45b-af04-49d9-8ffe-814d04678843</testCaseGuid>
+</TestCaseEntity>

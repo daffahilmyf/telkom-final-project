@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that the navbar components are clickable</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>268f22f5-c3ee-4e4d-80cc-6e51cb90535e</testCaseGuid>
+</TestCaseEntity>

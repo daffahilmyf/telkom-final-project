@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Fitur Canggih AgreepediaNikmati berbaga_a39bd7</name>
+   <tag></tag>
+   <elementGuidId>c8a923e0-8a7d-4bb2-a822-0658f51cc950</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[2]/div[13]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fa867fc6-fd84-450e-9fb7-e1f3f4627f5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>iklan</value>
+      <webElementGuid>ac13cf75-4399-4cbb-a35c-6363e5f607a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Fitur Canggih AgreepediaNikmati berbagai kemudahan dari fitur canggih Agreepedia untuk meningkatkan efisiensi proses budi dayamuFitur canggih Agreepedia akan segera hadir spesial buat kamu !</value>
+      <webElementGuid>447b59c8-03c6-4769-a652-bb5efae47fad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;universal-wrap&quot;]/div[@class=&quot;agreepedia&quot;]/div[@class=&quot;konten&quot;]/div[@class=&quot;iklan-background&quot;]/div[@class=&quot;iklan&quot;]</value>
+      <webElementGuid>70bcebe9-88f6-40c9-8cab-d71d0555030b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[2]/div[13]/div</value>
+      <webElementGuid>63d861c5-9ab1-4005-a2d6-adaabce242ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fitur canggih dari Agree untuk tingkatkan proses budidaya kamu'])[1]/following::div[2]</value>
+      <webElementGuid>afd2dd95-3a5e-4427-a428-d65905067714</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplikasi Agreepedia'])[1]/following::div[3]</value>
+      <webElementGuid>9e0912ba-f6ad-45fb-b77f-7e4a8ad38662</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[13]/div</value>
+      <webElementGuid>0a6b4a9a-d8e6-4338-82f6-3921265f4b00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Fitur Canggih AgreepediaNikmati berbagai kemudahan dari fitur canggih Agreepedia untuk meningkatkan efisiensi proses budi dayamuFitur canggih Agreepedia akan segera hadir spesial buat kamu !' or . = ' Fitur Canggih AgreepediaNikmati berbagai kemudahan dari fitur canggih Agreepedia untuk meningkatkan efisiensi proses budi dayamuFitur canggih Agreepedia akan segera hadir spesial buat kamu !')]</value>
+      <webElementGuid>2279097c-4d45-4953-b538-129047370b20</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

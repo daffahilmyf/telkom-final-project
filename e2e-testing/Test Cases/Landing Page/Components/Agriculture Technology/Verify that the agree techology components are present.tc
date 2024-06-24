@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that the agree techology components are present</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>effebe1f-04a0-4876-a9be-1c3f68245f75</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Agree Market</name>
+   <tag></tag>
+   <elementGuidId>fa8caaf2-257a-4ee7-9633-80b97dd802e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[3]/div[2]/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4de61679-e6af-4b9b-9ace-1771d884e73a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kartu-1 flex-y-between-start</value>
+      <webElementGuid>93eb2e58-caf7-4648-a47a-3c5713c0a610</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Jutaan produk berkualitas untuk menunjang bisnis AndaSaya Mau Baca</value>
+      <webElementGuid>2862805e-2fff-43be-af66-d5ab166e57b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[1]/div[@class=&quot;home-3 flex-y-between&quot;]/div[@class=&quot;holding&quot;]/div[@class=&quot;kartu-1 flex-y-between-start&quot;]</value>
+      <webElementGuid>4ddefba1-ef20-456e-8988-1fa646e58e37</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[3]/div[2]/div[3]</value>
+      <webElementGuid>b45ea141-bd7c-4ca5-956c-27ae55a134d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya Mau Baca'])[2]/following::div[1]</value>
+      <webElementGuid>79aaa3b0-2ad5-4749-b90c-c7c2f848b74f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permodalan untuk wirausaha pertanian dan petani kecil'])[1]/following::div[2]</value>
+      <webElementGuid>432a03ae-9e6b-49da-9000-86b47bbe72bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]</value>
+      <webElementGuid>787c810e-d4f3-460f-8ab3-dde9ea747a48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Jutaan produk berkualitas untuk menunjang bisnis AndaSaya Mau Baca' or . = 'Jutaan produk berkualitas untuk menunjang bisnis AndaSaya Mau Baca')]</value>
+      <webElementGuid>c6e9fb1a-b9c0-4cd6-a9b5-eca10b38f0ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

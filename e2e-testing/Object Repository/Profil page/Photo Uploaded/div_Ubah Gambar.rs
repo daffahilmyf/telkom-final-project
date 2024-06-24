@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Ubah Gambar</name>
+   <tag></tag>
+   <elementGuidId>ad8c8574-4fa9-42b6-a409-d299f045e0af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.image-preview-easy</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1e416321-9c75-471f-9a15-900618bf8731</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>image-preview-easy</value>
+      <webElementGuid>a2899127-1804-4147-b075-fc6e4259f4bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ubah Gambar</value>
+      <webElementGuid>759621c3-9967-4605-aefb-0c342484e99f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[@class=&quot;propail&quot;]/div[@class=&quot;tambah4&quot;]/div[@class=&quot;pratinjau&quot;]/div[@class=&quot;atas&quot;]/div[@class=&quot;kiri&quot;]/div[@class=&quot;image-preview-easy&quot;]</value>
+      <webElementGuid>94481b24-ddfa-4725-91b8-e7f2c93b30d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div/div/div/div</value>
+      <webElementGuid>69df542a-5e81-4c2a-980d-8626fab76981</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Profile'])[1]/following::div[1]</value>
+      <webElementGuid>b1b69546-8169-4b6e-a01b-fd07fe312693</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='mva.loppies@gmail.com'])[1]/following::div[6]</value>
+      <webElementGuid>b9a145f0-cdac-4cf9-a5bd-d8b96f9508b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ukuran foto Anda dapat diterima'])[1]/preceding::div[2]</value>
+      <webElementGuid>a968c995-858b-4d23-a9b4-e3174f986c8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div</value>
+      <webElementGuid>d74577de-d707-4deb-b6e9-f4a6d716b9b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Ubah Gambar' or . = 'Ubah Gambar')]</value>
+      <webElementGuid>79ad03a9-ba4b-4f33-820e-5dacbe0f8b28</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

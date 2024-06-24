@@ -1,0 +1,1 @@
+newman run agree_collections.json -e agree_environments.json --folder "API Testing"

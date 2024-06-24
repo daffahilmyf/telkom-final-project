@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Info Budi Daya</name>
+   <tag></tag>
+   <elementGuidId>fc48f945-5352-4578-8097-1bca8f568770</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-info-budidaya']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#home-info-budidaya > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fbc37f83-52ce-474b-a20f-0f57a58190db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Info Budi Daya</value>
+      <webElementGuid>1d85af88-05d8-4544-b83d-2dcee14da710</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-info-budidaya&quot;)/span[1]</value>
+      <webElementGuid>88413b09-71b5-4382-8368-d0421e6d2766</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-info-budidaya']/span</value>
+      <webElementGuid>f6bb622f-468f-487a-835e-77c632616f9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fitur canggih Agreepedia akan segera hadir spesial buat kamu !'])[1]/following::span[1]</value>
+      <webElementGuid>941cf1b4-4006-4239-8515-bc68536838a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dapet Ilmu + Sertifikat, Gratis!'])[1]/following::span[3]</value>
+      <webElementGuid>ec739825-74ec-46e7-b8af-c5eabee51905</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baca berbagai informasi terbaru seputar agrikultur untuk meningkatkan pemahamanmu!'])[3]/preceding::span[1]</value>
+      <webElementGuid>98931bd6-3767-409d-a0a9-28b5361772a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tebu'])[1]/preceding::span[3]</value>
+      <webElementGuid>3024cf1b-db29-421d-8271-e108327a48b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/span</value>
+      <webElementGuid>1b1a861e-a096-4603-b5a1-bd30ca3334f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Info Budi Daya' or . = 'Info Budi Daya')]</value>
+      <webElementGuid>7ee64f46-445e-4ea6-b571-3742817b018e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

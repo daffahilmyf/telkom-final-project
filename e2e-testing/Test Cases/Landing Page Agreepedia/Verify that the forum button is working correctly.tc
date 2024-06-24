@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that the forum button is working correctly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37bcda85-000c-4047-b061-ccffbaa69ed2</testCaseGuid>
+</TestCaseEntity>

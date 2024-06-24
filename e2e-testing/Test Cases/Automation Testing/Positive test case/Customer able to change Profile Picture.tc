@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customer able to change Profile Picture</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1e41b75-3fa3-4385-aa54-be939103017c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d619e7a-8fe1-41a5-b7bc-b0a432d8177a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'D:\\\\GAMBAR\\\\file upload\\\\500_95.jpg'</defaultValue>
+      <description></description>
+      <id>5d619e7a-8fe1-41a5-b7bc-b0a432d8177a</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Fitur Forum akan segera hadir, tunggu ya</name>
+   <tag></tag>
+   <elementGuidId>c6d45607-9a52-4c27-a10f-f885057a5dbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[2]/div[10]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ade87af6-4d2a-44f9-8780-4893ffab5006</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Fitur Forum akan segera hadir, tunggu ya!</value>
+      <webElementGuid>e42ede63-ca1b-4d00-9020-6ff2ed454c82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;universal-wrap&quot;]/div[@class=&quot;agreepedia&quot;]/div[@class=&quot;konten&quot;]/div[@class=&quot;iklan-background&quot;]/div[@class=&quot;iklan&quot;]/div[1]</value>
+      <webElementGuid>dd210d60-0613-45a9-8edf-95c022f1618d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[2]/div[10]/div/div</value>
+      <webElementGuid>cc031462-0f20-4044-a01d-cd159ba97d99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buka forum diskusimu sendiri dan bangun komunitas pertanian bersama penggiat agrikultur'])[1]/following::div[1]</value>
+      <webElementGuid>140c747a-8666-4133-b758-cfddc437bcfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perluas Jaringan Bersama Pengguna Lainnya'])[1]/following::div[1]</value>
+      <webElementGuid>4bc3a17b-d1cf-46a9-aac7-fecb9106a0b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplikasi Agreepedia'])[1]/preceding::div[3]</value>
+      <webElementGuid>40d6721f-b716-4069-94af-11fe5b6a793a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div</value>
+      <webElementGuid>3b4660ce-277e-45eb-b38c-808f5d341e6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Fitur Forum akan segera hadir, tunggu ya!' or . = 'Fitur Forum akan segera hadir, tunggu ya!')]</value>
+      <webElementGuid>026b05b5-c4da-4afc-a13e-49799abc4a33</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that the navbar component texts are correct</name>
+   <tag>Positive</tag>
+   <comment></comment>
+   <testCaseGuid>f99f2789-c148-446b-88de-3fbe571df03d</testCaseGuid>
+</TestCaseEntity>

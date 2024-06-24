@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Tebu</name>
+   <tag></tag>
+   <elementGuidId>446d5996-b61e-41c2-a08c-a6bde84cc888</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[2]/div[7]/div/div/div[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.swiper-slide.swiper-slide-active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aad8c17d-b6bf-4c2d-bd80-b6306f157b6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swiper-slide swiper-slide-active</value>
+      <webElementGuid>95d54d84-a7d1-41f9-981e-0dd8c4c21073</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-swiper-slide-index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>dfc34bfc-5bc0-4ebd-9f32-bf8aa594607b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tebu</value>
+      <webElementGuid>9b892689-412c-4ebe-801c-84bea67d1f9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;universal-wrap&quot;]/div[@class=&quot;agreepedia&quot;]/div[@class=&quot;konten&quot;]/div[@class=&quot;slider&quot;]/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-active&quot;]</value>
+      <webElementGuid>cd4e2800-7df9-482c-a2c4-5ae37f8f8ef5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[2]/div[7]/div/div/div[7]</value>
+      <webElementGuid>641d20e8-7f42-47fd-8e8b-80c7450761c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kapulaga'])[1]/following::div[1]</value>
+      <webElementGuid>3253a13a-ff9b-46a7-a0b0-8a8053a9780e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kemiri'])[1]/following::div[2]</value>
+      <webElementGuid>4781c7cc-cb21-44ef-8beb-ef8a614b13dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alpukat'])[2]/preceding::div[1]</value>
+      <webElementGuid>8e9235cb-9479-435e-b671-eb30a115c0f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div[7]</value>
+      <webElementGuid>0832cbd0-d3d4-4d4d-8d72-1d8b301dd7a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tebu' or . = 'Tebu')]</value>
+      <webElementGuid>a9e99ce3-cdd9-43c5-bc5a-9cfad59b590a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

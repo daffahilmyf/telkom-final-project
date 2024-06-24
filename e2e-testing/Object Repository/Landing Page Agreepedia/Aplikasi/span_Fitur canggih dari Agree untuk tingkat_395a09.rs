@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Fitur canggih dari Agree untuk tingkat_395a09</name>
+   <tag></tag>
+   <elementGuidId>6c2e174b-a9f9-4442-bc7e-01ef44a6f722</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-aplikasi']/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6a71f49a-0ee3-440a-b1ab-ac5bab91db6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Fitur canggih dari Agree untuk tingkatkan proses budidaya kamu</value>
+      <webElementGuid>9296eced-bec0-4a38-b2d0-9db00b79c859</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-aplikasi&quot;)/div[2]/span[1]</value>
+      <webElementGuid>c94a6cfa-7633-4651-bf51-7f2d6f19d838</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-aplikasi']/div[2]/span</value>
+      <webElementGuid>34fc73f2-3461-4cf4-b6b3-83c7b20bb2e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplikasi Agreepedia'])[1]/following::span[1]</value>
+      <webElementGuid>c87cbc93-cd1e-4516-bd91-d9e4b601b5d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fitur Forum akan segera hadir, tunggu ya!'])[1]/following::span[2]</value>
+      <webElementGuid>ab904325-1f87-4813-a3ca-55be8dc8742c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fitur Canggih Agreepedia'])[1]/preceding::span[2]</value>
+      <webElementGuid>402b541a-c970-4df0-b433-fbb3dac53ee5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fitur canggih Agreepedia akan segera hadir spesial buat kamu !'])[2]/preceding::span[4]</value>
+      <webElementGuid>c29cbd88-c4ec-4ed1-b0ae-faa82ae5fe88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div[2]/span</value>
+      <webElementGuid>e0d34e53-e537-42b7-838d-d2dcb6f361d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Fitur canggih dari Agree untuk tingkatkan proses budidaya kamu' or . = 'Fitur canggih dari Agree untuk tingkatkan proses budidaya kamu')]</value>
+      <webElementGuid>309679ef-aabb-41e8-9c48-eb042654efc4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

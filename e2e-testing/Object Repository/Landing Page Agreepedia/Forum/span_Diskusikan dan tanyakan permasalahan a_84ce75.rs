@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Diskusikan dan tanyakan permasalahan a_84ce75</name>
+   <tag></tag>
+   <elementGuidId>3b3dcbe7-5486-45db-9eae-7ecc76c7cd8d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-forum']/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2ac9030a-71f9-4c2e-9362-98ee84ba1cae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Diskusikan dan tanyakan permasalahan agrikultur kamu kepada ahli di Agreepedia</value>
+      <webElementGuid>94443fb6-d822-4b1b-91dd-ddadde4f7fb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-forum&quot;)/div[2]/span[1]</value>
+      <webElementGuid>f2aef67c-73ad-4a7b-9a4b-d0622a368ac6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-forum']/div[2]/span</value>
+      <webElementGuid>bc03a1e3-83c1-4d1f-a39b-dc8036d24bc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forum Agreepedia'])[1]/following::span[1]</value>
+      <webElementGuid>fd3bc40a-f197-4350-8db8-2646f5d8bb2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kapulaga'])[3]/following::span[2]</value>
+      <webElementGuid>ae9c1a15-afa8-469a-b102-4aa86caa9873</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perluas Jaringan Bersama Pengguna Lainnya'])[1]/preceding::span[2]</value>
+      <webElementGuid>3e272156-ebaa-4c9b-b44c-a324d2949b41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buka forum diskusimu sendiri dan bangun komunitas pertanian bersama penggiat agrikultur'])[1]/preceding::span[3]</value>
+      <webElementGuid>867d5159-00e8-4f76-8f26-5f0fbeac33f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div[2]/span</value>
+      <webElementGuid>ea435567-3092-4341-8c12-05560efa90c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Diskusikan dan tanyakan permasalahan agrikultur kamu kepada ahli di Agreepedia' or . = 'Diskusikan dan tanyakan permasalahan agrikultur kamu kepada ahli di Agreepedia')]</value>
+      <webElementGuid>5c8ba464-e9bd-4e96-8ccb-1c46cc295a11</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

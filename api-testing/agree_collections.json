@@ -1,0 +1,2503 @@
+{
+	"info": {
+		"_postman_id": "fd0baf83-3ead-4926-90cc-791d4edac054",
+		"name": "Agree Culture",
+		"description": "Agree is a team that uses technology to modernize and improve the agriculture industry in Indonesia. It brings together different agricultural actors to facilitate the sharing of knowledge and resources, with the goal of creating a more cohesive and collaborative ecosystem. Agree has focused on developing digital tools for farmers, increasing supply chain efficiency, and leveraging technology to drive progress in the agriculture sector.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10932506"
+	},
+	"item": [
+		{
+			"name": "Mock Up",
+			"item": [
+				{
+					"name": "Entry",
+					"item": [
+						{
+							"name": "Login",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"test@gmail.com\",\r\n    \"password\": \"test@123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/{{version}}/login",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"{{version}}",
+										"login"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Auth Error Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"email\": \"test1@gmail.com\",\r\n    \"password\": \"test1@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 401,\r\n  \"data\": {\r\n    \"message\": \"We are sorry but we are not able to authenticate you, please enter the valid credentials\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Gateway Error Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 500,\r\n  \"data\": {\r\n    \"message\": \"unable to communicate with server\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Blank Password Error Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"email\": \"test@gmail.com\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"code": 406,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 406,\r\n  \"data\": {\r\n    \"message\": \"Please input email or password field\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Blank Email Error Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"code": 406,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 406,\r\n  \"data\": {\r\n    \"message\": \"Please input email or password field\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Blank Field Error Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n   \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"code": 406,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 406,\r\n  \"data\": {\r\n    \"message\": \"Please input email or password field\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Login Success Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"email\": \"test@gmail.com\",\r\n    \"password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{ \r\n  \"status\": \"success\",\r\n  \"code\": 200,\r\n  \"data\": {\r\n    \"jwt\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c\"\r\n  }\r\n}"
+								}
+							]
+						},
+						{
+							"name": "Register",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"email\":\"test@gmail.com\",\r\n  \"password\":\"test@123\",\r\n  \"confirmation_password\": \"test@123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/{{version}}/register",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"{{version}}",
+										"register"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Register Success Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"email\":\"test@gmail.com\",\r\n  \"password\":\"test@123\",\r\n  \"confirmation_password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"status": "Created",
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{ \r\n  \"status\": \"success\",\r\n  \"code\": 201,\r\n  \"data\": {\r\n    \"email\": \"test@gmail.com\",\r\n    \"message\": \"Registration is success\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Existing Email Registered Error Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"email\":\"testtest@gmail.com\",\r\n  \"password\":\"test@123\",\r\n  \"confirmation_password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"status": "Not Acceptable",
+									"code": 406,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 406,\r\n  \"data\": {\r\n    \"message\": \"Email already registered\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Gateway Error Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 500,\r\n  \"data\": {\r\n    \"message\": \"unable to communicate with server\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Blank Password Error Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"email\":\"test@gmail.com\",\r\n  \"confirmation_password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"code": 406,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 406,\r\n  \"data\": {\r\n    \"message\": \"Please input email or password field\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Blank Password Confirmation Error Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"email\":\"test@gmail.com\",\r\n  \"password\": \"test@123\"\r\n\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"code": 406,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 406,\r\n  \"data\": {\r\n    \"message\": \"Please input email or password field\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Blank Email Error Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"password\":\"test@123\",\r\n  \"confirmation_password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"code": 406,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 406,\r\n  \"data\": {\r\n    \"message\": \"Please input email or password field\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Blank Field Error Case",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"code": 406,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 406,\r\n  \"data\": {\r\n    \"message\": \"Please input email or password field\"\r\n  }\r\n}"
+								}
+							]
+						}
+					],
+					"description": "This folder contains a mock up API for the entry functionality of a system, including login and register capabilities. Each functionality has a corresponding response example that adheres to the API contract."
+				},
+				{
+					"name": "Profile",
+					"item": [
+						{
+							"name": "User Profile",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/{{version}}/users/:id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"{{version}}",
+										"users",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": null
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get User Profile Success Case",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{url}}/{{version}}/users/:id",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"users",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"status\": \"success\",\n    \"code\": 200,\n    \"data\": {\n        \"name\": \"Daffa Hilmy Fadhlurrohman\",\n        \"email\": \"daffa@gmail.com\",\n        \"phone_number\": \"0928301923803280\"\n    }\n}"
+								},
+								{
+									"name": "Get User Profile Success Case Copy",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{url}}/{{version}}/users/:id",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"users",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "1000"
+												}
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"status\": \"failed\",\n    \"code\": 404,\n    \"data\": {\n        \"message\": \"Id not found\"\n    }\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "News",
+					"item": [
+						{
+							"name": "Get News",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/{{version}}/news/:id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"{{version}}",
+										"news",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Get News Collection Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/x-www-form-urlencoded",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{jwt}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": []
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/news",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"news"
+											]
+										}
+									},
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n    \"status\": \"success\",\r\n    \"code\": 200,\r\n    \"data\": [{\r\n        \"id\": 1,\r\n        \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",\r\n        \"tags\": [\"Inovasi\", \"Teknologi\"],\r\n        \"title\": \"Mudahnya Belanja Kebutuhan Dapur Lewat Agree Mart dan Banyak Untungnya\",\r\n        \"author\": \"agree\",\r\n        \"date\": \"2022-12-11 03:40:25\",\r\n        \"content\": \"Fakta bahwa teknologi memudahkan dan memanjakan masyarakat memang benar adanya. Kini kita bisa melakukan banyak pekerjaan lewat satu perangkat yang disebut handphone. Lewat handphone, segalanya terasa mudah. Mulai dari belajar, bekerja, sampai belanja kebutuhan.\"\r\n    },\r\n    {\r\n        \"id\": 2,\r\n        \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",\r\n        \"tags\": [\"Inovasi\", \"Teknologi\"],\r\n        \"title\": \"Sejahterakan Peternak, Agree Fasilitasi Digitalisasi Proses Budi Daya Domba Sakub di Brebes\",\r\n        \"author\": \"agree\",\r\n        \"date\": \"2022-12-11 03:40:25\",\r\n        \"content\": \"Domba Sakub kini menjadi salah satu hewan ternak yang sedang gencar ditingkatkan populasinya di Brebes, terutama untuk peternak millenial. Domba lokal asli Brebes ini diberi nama Sakub sesuai dengan nama puncak Sakub yang berada di Desa Pandansari. Warga Desa Pandansari sudah mengenal domba Sakub sejak tahun 1980. Berhasil menjadi domba lokal yang mencapai bobot hingga 100kg, domba Sakub masuk ke dalam golongan domba super karena hasil dari persilangan dari domba jenis Texel, Sulfox, Merino, dan domba lokal. Bahkan, bobot cempenya (anak kambing) saat umur dua bulan bisa memiliki bobot hingga 26 kg.\"\r\n    },\r\n    {\r\n        \"id\": 3,\r\n        \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",\r\n        \"tags\": [\"Inovasi\", \"Teknologi\"],\r\n        \"title\": \"Tools Kekinian yang Wajib Dimiliki Petani Modern untuk Mempermudah Pengarsipan secara Digital\",\r\n        \"author\": \"agree\",\r\n        \"date\": \"2022-12-11 03:40:25\",\r\n        \"content\": \"Teknologi di era digital berkembang sangat pesat. Bukan hanya wujudnya, penerapannya juga sudah dibuat merata di segala aspek. Mulai dari pendidikan, industri, kesehatan, hingga pertanian. Semua masyarakat dalam berbagai aspek kehidupan ditantang untuk dapat terus berkembang dan mampu terus beradaptasi dengan perkembangan teknologi yang ada tak terkecuali pebisnis di bidang agrikultur. \"\r\n    },\r\n    {\r\n        \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",\r\n        \"tags\": [\"Inovasi\", \"Teknologi\"],\r\n        \"title\": \"Tingkatkan Value Petani dengan Fitur Traceability\",\r\n        \"author\": \"agree\",\r\n        \"date\": \"2022-12-11 03:40:25\",\r\n        \"content\": \"Awal September 2022 lalu, platform digital Agree berhasil menjadi jembatan kerja sama penjualan kopi antara stakeholder dari Indonesia dengan para importir yang berada di Belanda dan sekitarnya. Transaksi yang berhasil didapatkan yakni mencapai angka USD5,6 juta atau senilai lebih dari 83 miliar rupiah. \"\r\n    }]\r\n}"
+								},
+								{
+									"name": "Auth Error Case",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/x-www-form-urlencoded",
+												"type": "text"
+											},
+											{
+												"key": "Authorization",
+												"value": "Bearer {{jwt}}",
+												"type": "text",
+												"disabled": true
+											}
+										],
+										"body": {
+											"mode": "urlencoded",
+											"urlencoded": []
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/news",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"news"
+											]
+										}
+									},
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n  \"status\": \"error\",\r\n  \"code\": 401,\r\n  \"data\": {\r\n    \"message\": \"We are sorry but we are not able to authenticate you, please enter the valid credentials\"\r\n  }\r\n}"
+								},
+								{
+									"name": "Get News By ID Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{url}}/{{version}}/news/:id",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"news",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n    \"status\": \"success\",\r\n    \"code\": 200,\r\n    \"data\": {\r\n        \"id\": 1,\r\n        \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",\r\n        \"tags\": [\"Inovasi\", \"Teknologi\"],\r\n        \"title\": \"Mudahnya Belanja Kebutuhan Dapur Lewat Agree Mart dan Banyak Untungnya\",\r\n        \"author\": \"agree\",\r\n        \"date\": \"2022-12-11 03:40:25\",\r\n        \"content\": \"Fakta bahwa teknologi memudahkan dan memanjakan masyarakat memang benar adanya. Kini kita bisa melakukan banyak pekerjaan lewat satu perangkat yang disebut handphone. Lewat handphone, segalanya terasa mudah. Mulai dari belajar, bekerja, sampai belanja kebutuhan.\"\r\n    }\r\n}"
+								}
+							]
+						},
+						{
+							"name": "Get News Copy",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",\r\n    \"tags\": [\"Inovasi\", \"Teknologi\"],\r\n    \"title\": \"Lorem Ipsum dolor et amet\",\r\n    \"content\": \"lorem ipsum\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/{{version}}/news/:user_id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"{{version}}",
+										"news",
+										":user_id"
+									],
+									"variable": [
+										{
+											"key": "user_id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Create News By ID Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",\r\n    \"tags\": [\"Inovasi\", \"Teknologi\"],\r\n    \"title\": \"Lorem Ipsum dolor et amet\",\r\n    \"content\": \"lorem ipsum\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/news/:user_id",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"news",
+												":user_id"
+											],
+											"variable": [
+												{
+													"key": "user_id",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"code": 201,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json",
+											"name": "Content-Type",
+											"description": "",
+											"type": "text"
+										}
+									],
+									"cookie": [],
+									"body": "{\r\n    \"status\": \"success\",\r\n    \"code\": 201,\r\n    \"data\": {\r\n        \"message\": \"News created\"\r\n    }\r\n}"
+								}
+							]
+						}
+					]
+				}
+			],
+			"description": "This folder contains a mock up API for the Agree Culture product, which uses digital tools to improve the agriculture industry in Indonesia. The mock up API is a simulation of the product's API, allowing developers to test and evaluate it without a fully functional version."
+		},
+		{
+			"name": "API Testing",
+			"item": [
+				{
+					"name": "Entry",
+					"item": [
+						{
+							"name": "Login",
+							"item": [
+								{
+									"name": "Login Success",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"SUCCESS\",\"login_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"SUCCESS\",\"login_schema\")\r",
+													""
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"email\": \"test@gmail.com\",\r\n    \"password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Login Failed - Auth",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"ERROR_AUTH\", \"login_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"ERROR\", \"login_schema\")\r",
+													""
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"email\": \"test1@gmail.com\",\r\n    \"password\": \"test1@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Login Failed - Gateway",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"ERROR_GATEWAY\", \"login_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"ERROR\", \"login_schema\")"
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Login Failed - Blank Email",
+									"event": [
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript"
+											}
+										},
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"ERROR_BLANK_FIELD\", \"login_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"ERROR\", \"login_schema\")"
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Login Failed - Blank Password",
+									"event": [
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript"
+											}
+										},
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"ERROR_BLANK_FIELD\", \"login_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"ERROR\", \"login_schema\")"
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n    \"password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Login Failed - Blank Field",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"ERROR_BLANK_FIELD\", \"login_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"ERROR\", \"login_schema\")"
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/login",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"login"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											"const LOGIN_RESPONSE = Object.freeze({",
+											"    SUCCESS: {",
+											"        \"status\": \"success\",",
+											"        \"code\": 200,",
+											"        \"data\": {",
+											"            \"jwt\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c\"",
+											"        }",
+											"    },",
+											"    ERROR_AUTH: {",
+											"        \"status\": \"error\",",
+											"        \"code\": 401,",
+											"        \"data\": {",
+											"            \"message\": \"We are sorry but we are not able to authenticate you, please enter the valid credentials\"",
+											"        }",
+											"    },",
+											"    ERROR_GATEWAY: {",
+											"        \"status\": \"error\",",
+											"        \"code\": 500,",
+											"        \"data\": {",
+											"            \"message\": \"unable to communicate with server\"",
+											"        }",
+											"    },",
+											"    ERROR_BLANK_FIELD: {",
+											"        \"status\": \"error\",",
+											"        \"code\": 406,",
+											"        \"data\": {",
+											"            \"message\": \"Please input email or password field\"",
+											"        }",
+											"    }",
+											"})",
+											"",
+											"const LOGIN_SCHEMA = Object.freeze({",
+											"    SUCCESS: {",
+											"        \"type\": \"object\",",
+											"        \"properties\": {",
+											"            \"status\": {",
+											"                \"type\": \"string\"",
+											"            },",
+											"            \"code\": {",
+											"                \"type\": \"number\"",
+											"            },",
+											"            \"data\": {",
+											"                \"type\": \"object\",",
+											"                \"properties\":{",
+											"                    \"jwt\": {",
+											"                        \"type\": \"string\"",
+											"                    }",
+											"                }",
+											"            }",
+											"        },",
+											"        \"required\": [",
+											"            \"status\", \"code\", \"data\"",
+											"        ]",
+											"    },",
+											"    ERROR: {",
+											"        \"type\": \"object\",",
+											"        \"properties\": {",
+											"            \"status\": {",
+											"                \"type\": \"string\"",
+											"            },",
+											"            \"code\": {",
+											"                \"type\": \"number\"",
+											"            },",
+											"            \"data\": {",
+											"                \"type\": \"object\",",
+											"                \"properties\":{",
+											"                    \"message\": {",
+											"                        \"type\": \"string\"",
+											"                    }",
+											"                }",
+											"            }",
+											"        },",
+											"        \"required\": [",
+											"            \"status\", \"code\", \"data\"",
+											"        ]",
+											"    }",
+											"})",
+											"",
+											"pm.environment.set('login_schema', JSON.stringify(Object(LOGIN_SCHEMA)))",
+											"pm.environment.set('login_response', JSON.stringify(Object(LOGIN_RESPONSE)))",
+											"",
+											"",
+											"",
+											""
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											""
+										]
+									}
+								}
+							]
+						},
+						{
+							"name": "Register",
+							"item": [
+								{
+									"name": "Register Success",
+									"event": [
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript"
+											}
+										},
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"\r",
+													"\r",
+													"eval(pm.environment.get('reusable_response_test'))(\"SUCCESS\", \"register_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"SUCCESS\", \"register_schema\")\r",
+													"\r",
+													""
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"email\":\"test@gmail.com\",\r\n  \"password\":\"test@123\",\r\n  \"confirmation_password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Register Failed - Blank Email",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"ERROR_BLANK_FIELD\", \"register_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"ERROR\", \"register_schema\")\r",
+													"\r",
+													""
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"password\":\"test@123\",\r\n  \"confirmation_password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Register Failed - Blank Password",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"ERROR_BLANK_FIELD\", \"register_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"ERROR\", \"register_schema\")"
+												],
+												"type": "text/javascript"
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"email\":\"test@gmail.com\",\r\n  \"confirmation_password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Register Failed - Blank Password Confirmation",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"ERROR_BLANK_FIELD\", \"register_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"ERROR\", \"register_schema\")"
+												],
+												"type": "text/javascript"
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"email\":\"test@gmail.com\",\r\n  \"password\":\"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Register Failed - Blank Field",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"ERROR_BLANK_FIELD\", \"register_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"ERROR\", \"register_schema\")"
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Register Failed - Existing Email Registered",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"ERROR_REGISTERED_EMAIL\", \"register_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"ERROR\", \"register_schema\")"
+												],
+												"type": "text/javascript"
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\r\n  \"email\":\"testtest@gmail.com\",\r\n  \"password\":\"test@123\",\r\n  \"confirmation_password\": \"test@123\"\r\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Register Failed - Gateway",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"eval(pm.environment.get('reusable_response_test'))(\"ERROR_GATEWAY\", \"register_response\")\r",
+													"eval(pm.environment.get('reusable_schema_test'))(\"ERROR\", \"register_schema\")"
+												],
+												"type": "text/javascript"
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript"
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{url}}/{{version}}/register",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"{{version}}",
+												"register"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											"const REGISTER_RESPONSE = Object.freeze({",
+											"    SUCCESS: { ",
+											"        \"status\": \"success\",",
+											"        \"code\": 201,",
+											"        \"data\": {",
+											"            \"email\": \"test@gmail.com\",",
+											"            \"message\": \"Registration is success\"",
+											"        }",
+											"    },",
+											"    ERROR_GATEWAY: {",
+											"        \"status\": \"error\",",
+											"        \"code\": 500,",
+											"        \"data\": {",
+											"            \"message\": \"unable to communicate with server\"",
+											"        }",
+											"    },",
+											"    ERROR_BLANK_FIELD: {",
+											"        \"status\": \"error\",",
+											"        \"code\": 406,",
+											"        \"data\": {",
+											"            \"message\": \"Please input email or password field\"",
+											"        }",
+											"    },",
+											"    ERROR_REGISTERED_EMAIL: {",
+											"        \"status\": \"error\",",
+											"        \"code\": 406,",
+											"        \"data\": {",
+											"            \"message\": \"Email already registered\"",
+											"        }",
+											"    }",
+											"})",
+											"",
+											"const REGISTER_SCHEMA = Object.freeze({",
+											"    SUCCESS: {",
+											"        \"type\": \"object\",",
+											"        \"properties\": {",
+											"            \"status\": {",
+											"                \"type\": \"string\"",
+											"            },",
+											"            \"code\": {",
+											"                \"type\": \"number\"",
+											"            },",
+											"            \"data\": {",
+											"                \"type\": \"object\",",
+											"                \"properties\":{",
+											"                    \"email\": {",
+											"                        \"type\": \"string\"",
+											"                    },",
+											"                    \"message\": {",
+											"                        \"type\": \"string\"",
+											"                    }",
+											"                }",
+											"            }",
+											"        },",
+											"        \"required\": [",
+											"            \"status\", \"code\", \"data\"",
+											"        ]",
+											"    },",
+											"    ERROR: {",
+											"        \"type\": \"object\",",
+											"        \"properties\": {",
+											"            \"status\": {",
+											"                \"type\": \"string\"",
+											"            },",
+											"            \"code\": {",
+											"                \"type\": \"number\"",
+											"            },",
+											"            \"data\": {",
+											"                \"type\": \"object\",",
+											"                \"properties\":{",
+											"                    \"message\": {",
+											"                        \"type\": \"string\"",
+											"                    }",
+											"                }",
+											"            }",
+											"        },",
+											"        \"required\": [",
+											"            \"status\", \"code\", \"data\"",
+											"        ]",
+											"    }",
+											"})",
+											"",
+											"pm.environment.set('register_schema', JSON.stringify(Object(REGISTER_SCHEMA)))",
+											"pm.environment.set('register_response', JSON.stringify(Object(REGISTER_RESPONSE)))",
+											""
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											""
+										]
+									}
+								}
+							]
+						}
+					],
+					"description": "This folder contains a mock up API for the entry functionality of a system, including login and register capabilities. Each functionality has a corresponding response example that adheres to the API contract.",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Profile",
+					"item": [],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"const PROFILE_RESPONSE = Object.freeze({",
+									"    SUCCESS: {",
+									"        \"status\": \"success\",",
+									"        \"code\": 200,",
+									"        \"data\": {",
+									"            \"name\": \"Daffa Hilmy Fadhlurrohman\",",
+									"            \"email\": \"daffa@gmail.com\",",
+									"            \"phone_number\": \"0928301923803280\"",
+									"        }",
+									"    },",
+									"    ERROR_NOT_FOUND: {",
+									"        \"status\": \"failed\",",
+									"        \"code\": 404,",
+									"        \"data\": {",
+									"            \"message\": \"Id not found\"",
+									"        }",
+									"    }",
+									"})",
+									"",
+									"const PROFILE_SCHEMA = Object.freeze({",
+									"    SUCCESS: {",
+									"        \"type\": \"object\",",
+									"        \"properties\": {",
+									"            \"status\": {",
+									"                \"type\": \"string\"",
+									"            },",
+									"            \"code\": {",
+									"                \"type\": \"number\"",
+									"            },",
+									"            \"data\": {",
+									"                \"type\": \"object\",",
+									"                \"properties\":{",
+									"                    \"email\": {",
+									"                        \"type\": \"string\"",
+									"                    },",
+									"                    \"message\": {",
+									"                        \"type\": \"string\"",
+									"                    },",
+									"                    \"phone_number\": {",
+									"                        \"type\": \"string\"",
+									"                    }",
+									"                }",
+									"            }",
+									"        },",
+									"        \"required\": [",
+									"            \"status\", \"code\", \"data\"",
+									"        ]",
+									"    },",
+									"    ERROR: {",
+									"        \"type\": \"object\",",
+									"        \"properties\": {",
+									"            \"status\": {",
+									"                \"type\": \"string\"",
+									"            },",
+									"            \"code\": {",
+									"                \"type\": \"number\"",
+									"            },",
+									"            \"data\": {",
+									"                \"type\": \"object\",",
+									"                \"properties\":{",
+									"                    \"message\": {",
+									"                        \"type\": \"string\"",
+									"                    }",
+									"                }",
+									"            }",
+									"        },",
+									"        \"required\": [",
+									"            \"status\", \"code\", \"data\"",
+									"        ]",
+									"    }",
+									"})",
+									"",
+									"pm.environment.set('profile_schema', JSON.stringify(Object(PROFILE_RESPONSE)))",
+									"pm.environment.set('profile_response', JSON.stringify(Object(PROFILE_SCHEMA)))",
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "News",
+					"item": [
+						{
+							"name": "News By ID Success",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"// eval(pm.environment.get('reusable_response_test'))(\"SUCCESS_BY_ID\", \"news_response\")\r",
+											"// eval(pm.environment.get('reusable_schema_test'))(\"SUCCESS_BY_ID\", \"news_schema\")"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/{{version}}/news/:id",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"{{version}}",
+										"news",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "News Collection Success",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"// eval(pm.environment.get('reusable_response_test'))(\"SUCCESS_COLLECTION\", \"news_response\")\r",
+											"// eval(pm.environment.get('reusable_schema_test'))(\"SUCCESS_COLLECTION\", \"news_schema\")"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/{{version}}/news",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"{{version}}",
+										"news"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"const NEWS_RESPONSE = Object.freeze({",
+									"    SUCCESS_BY_ID: {",
+									"        \"status\": \"success\",",
+									"        \"code\": 200,",
+									"        \"data\": {",
+									"            \"id\": 1,",
+									"            \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",",
+									"            \"tags\": [\"Inovasi\", \"Teknologi\"],",
+									"            \"title\": \"Mudahnya Belanja Kebutuhan Dapur Lewat Agree Mart dan Banyak Untungnya\",",
+									"            \"author\": \"agree\",",
+									"            \"date\": \"2022-12-11 03:40:25\",",
+									"            \"content\": \"Fakta bahwa teknologi memudahkan dan memanjakan masyarakat memang benar adanya. Kini kita bisa melakukan banyak pekerjaan lewat satu perangkat yang disebut handphone. Lewat handphone, segalanya terasa mudah. Mulai dari belajar, bekerja, sampai belanja kebutuhan.\"",
+									"        }",
+									"    },",
+									"    SUCCESS_COLLECTION: {",
+									"        \"status\": \"success\",",
+									"        \"code\": 200,",
+									"        \"data\": [{",
+									"            \"id\": 1,",
+									"            \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",",
+									"            \"tags\": [\"Inovasi\", \"Teknologi\"],",
+									"            \"title\": \"Mudahnya Belanja Kebutuhan Dapur Lewat Agree Mart dan Banyak Untungnya\",",
+									"            \"author\": \"agree\",",
+									"            \"date\": \"2022-12-11 03:40:25\",",
+									"            \"content\": \"Fakta bahwa teknologi memudahkan dan memanjakan masyarakat memang benar adanya. Kini kita bisa melakukan banyak pekerjaan lewat satu perangkat yang disebut handphone. Lewat handphone, segalanya terasa mudah. Mulai dari belajar, bekerja, sampai belanja kebutuhan.\"",
+									"        },",
+									"        {",
+									"            \"id\": 2,",
+									"            \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",",
+									"            \"tags\": [\"Inovasi\", \"Teknologi\"],",
+									"            \"title\": \"Sejahterakan Peternak, Agree Fasilitasi Digitalisasi Proses Budi Daya Domba Sakub di Brebes\",",
+									"            \"author\": \"agree\",",
+									"            \"date\": \"2022-12-11 03:40:25\",",
+									"            \"content\": \"Domba Sakub kini menjadi salah satu hewan ternak yang sedang gencar ditingkatkan populasinya di Brebes, terutama untuk peternak millenial. Domba lokal asli Brebes ini diberi nama Sakub sesuai dengan nama puncak Sakub yang berada di Desa Pandansari. Warga Desa Pandansari sudah mengenal domba Sakub sejak tahun 1980. Berhasil menjadi domba lokal yang mencapai bobot hingga 100kg, domba Sakub masuk ke dalam golongan domba super karena hasil dari persilangan dari domba jenis Texel, Sulfox, Merino, dan domba lokal. Bahkan, bobot cempenya (anak kambing) saat umur dua bulan bisa memiliki bobot hingga 26 kg.\"",
+									"        },",
+									"        {",
+									"            \"id\": 3,",
+									"            \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",",
+									"            \"tags\": [\"Inovasi\", \"Teknologi\"],",
+									"            \"title\": \"Tools Kekinian yang Wajib Dimiliki Petani Modern untuk Mempermudah Pengarsipan secara Digital\",",
+									"            \"author\": \"agree\",",
+									"            \"date\": \"2022-12-11 03:40:25\",",
+									"            \"content\": \"Teknologi di era digital berkembang sangat pesat. Bukan hanya wujudnya, penerapannya juga sudah dibuat merata di segala aspek. Mulai dari pendidikan, industri, kesehatan, hingga pertanian. Semua masyarakat dalam berbagai aspek kehidupan ditantang untuk dapat terus berkembang dan mampu terus beradaptasi dengan perkembangan teknologi yang ada tak terkecuali pebisnis di bidang agrikultur. \"",
+									"        },",
+									"        {",
+									"            \"image\": \"https://static.wikia.nocookie.net/virtualyoutuber/images/0/00/Siska_Leontyne_Portrait.png/revision/latest?cb=20210329101049\",",
+									"            \"tags\": [\"Inovasi\", \"Teknologi\"],",
+									"            \"title\": \"Tingkatkan Value Petani dengan Fitur Traceability\",",
+									"            \"author\": \"agree\",",
+									"            \"date\": \"2022-12-11 03:40:25\",",
+									"            \"content\": \"Awal September 2022 lalu, platform digital Agree berhasil menjadi jembatan kerja sama penjualan kopi antara stakeholder dari Indonesia dengan para importir yang berada di Belanda dan sekitarnya. Transaksi yang berhasil didapatkan yakni mencapai angka USD5,6 juta atau senilai lebih dari 83 miliar rupiah. \"",
+									"        }]",
+									"    },",
+									"    SUCCESS_CREATED:{",
+									"        \"status\": \"success\",",
+									"        \"code\": 201,",
+									"        \"data\": {",
+									"            \"message\": \"News created\"",
+									"    }",
+									"}",
+									"",
+									"})",
+									"",
+									"const NEWS_SCHEMA = Object.freeze({",
+									"    SUCCESS_BY_ID: {",
+									"        \"type\": \"object\",",
+									"        \"properties\": {",
+									"            \"status\": {",
+									"            \"type\": \"string\"",
+									"            },",
+									"            \"code\": {",
+									"                \"type\": \"integer\"",
+									"            },",
+									"            \"data\": {",
+									"                \"type\": \"object\",",
+									"                \"properties\": {",
+									"                    \"id\": {",
+									"                    \"type\": \"integer\"",
+									"                    },",
+									"                    \"image\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"tags\": {",
+									"                    \"type\": \"array\",",
+									"                    \"items\": [",
+									"                        {",
+									"                        \"type\": \"string\"",
+									"                        },",
+									"                        {",
+									"                        \"type\": \"string\"",
+									"                        }",
+									"                    ]",
+									"                    },",
+									"                    \"title\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"author\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"date\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"content\": {",
+									"                    \"type\": \"string\"",
+									"                    }",
+									"                },",
+									"            \"required\": [\"id\", \"image\", \"tags\", \"title\", \"author\", \"date\", \"content\"]",
+									"            }",
+									"        },",
+									"        \"required\": [\"status\", \"code\", \"data\"]",
+									"    },",
+									"    SUCCESS_COLLECTION:{",
+									"        \"type\": \"object\",",
+									"        \"properties\": {",
+									"            \"status\": {",
+									"            \"type\": \"string\"",
+									"            },",
+									"            \"code\": {",
+									"            \"type\": \"integer\"",
+									"            },",
+									"            \"data\": {",
+									"            \"type\": \"array\",",
+									"            \"items\": [",
+									"                {",
+									"                \"type\": \"object\",",
+									"                \"properties\": {",
+									"                    \"id\": {",
+									"                    \"type\": \"integer\"",
+									"                    },",
+									"                    \"image\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"tags\": {",
+									"                    \"type\": \"array\",",
+									"                    \"items\": [",
+									"                        {",
+									"                        \"type\": \"string\"",
+									"                        },",
+									"                        {",
+									"                        \"type\": \"string\"",
+									"                        }",
+									"                    ]",
+									"                    },",
+									"                    \"title\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"author\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"date\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"content\": {",
+									"                    \"type\": \"string\"",
+									"                    }",
+									"                },",
+									"                \"required\": [\"id\", \"image\", \"tags\", \"title\", \"author\", \"date\",\"content\"]",
+									"                },",
+									"                {",
+									"                \"type\": \"object\",",
+									"                \"properties\": {",
+									"                    \"id\": {",
+									"                    \"type\": \"integer\"",
+									"                    },",
+									"                    \"image\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"tags\": {",
+									"                    \"type\": \"array\",",
+									"                    \"items\": [",
+									"                        {",
+									"                        \"type\": \"string\"",
+									"                        },",
+									"                        {",
+									"                        \"type\": \"string\"",
+									"                        }",
+									"                    ]",
+									"                    },",
+									"                    \"title\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"author\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"date\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"content\": {",
+									"                    \"type\": \"string\"",
+									"                    }",
+									"                },",
+									"                \"required\": [\"id\", \"image\", \"tags\", \"title\", \"author\", \"date\", \"content\"]",
+									"                },",
+									"                {",
+									"                \"type\": \"object\",",
+									"                \"properties\": {",
+									"                    \"id\": {",
+									"                    \"type\": \"integer\"",
+									"                    },",
+									"                    \"image\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"tags\": {",
+									"                    \"type\": \"array\",",
+									"                    \"items\": [",
+									"                        {",
+									"                        \"type\": \"string\"",
+									"                        },",
+									"                        {",
+									"                        \"type\": \"string\"",
+									"                        }",
+									"                    ]",
+									"                    },",
+									"                    \"title\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"author\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"date\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"content\": {",
+									"                    \"type\": \"string\"",
+									"                    }",
+									"                },",
+									"                \"required\": [\"id\", \"image\", \"tags\", \"title\", \"author\", \"date\", \"content\"]",
+									"                },",
+									"                {",
+									"                \"type\": \"object\",",
+									"                \"properties\": {",
+									"                    \"image\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"tags\": {",
+									"                    \"type\": \"array\",",
+									"                    \"items\": [",
+									"                        {",
+									"                        \"type\": \"string\"",
+									"                        },",
+									"                        {",
+									"                        \"type\": \"string\"",
+									"                        }",
+									"                    ]",
+									"                    },",
+									"                    \"title\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"author\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"date\": {",
+									"                    \"type\": \"string\"",
+									"                    },",
+									"                    \"content\": {",
+									"                    \"type\": \"string\"",
+									"                    }",
+									"                },",
+									"                \"required\": [ \"image\", \"tags\", \"title\", \"author\", \"date\", \"content\"]",
+									"                }",
+									"            ]",
+									"            }",
+									"        },",
+									"        \"required\": [",
+									"            \"status\",",
+									"            \"code\",",
+									"            \"data\"",
+									"        ]",
+									"        },",
+									"    SUCCESS_CREATED: {",
+									"        \"type\": \"object\",",
+									"        \"properties\": {",
+									"            \"status\": {",
+									"            \"type\": \"string\"",
+									"            },",
+									"            \"code\": {",
+									"            \"type\": \"integer\"",
+									"            },",
+									"            \"data\": {",
+									"            \"type\": \"object\",",
+									"            \"properties\": {",
+									"                \"message\": {",
+									"                \"type\": \"string\"",
+									"                }",
+									"            },",
+									"            \"required\": [",
+									"                \"message\"",
+									"            ]",
+									"            }",
+									"        },",
+									"        \"required\": [ \"status\", \"code\", \"data\"",
+									"        ]",
+									"    },",
+									"    ERROR: {",
+									"        \"type\": \"object\",",
+									"        \"properties\": {",
+									"            \"status\": {",
+									"                \"type\": \"string\"",
+									"            },",
+									"            \"code\": {",
+									"                \"type\": \"number\"",
+									"            },",
+									"            \"data\": {",
+									"                \"type\": \"object\",",
+									"                \"properties\":{",
+									"                    \"message\": {",
+									"                        \"type\": \"string\"",
+									"                    }",
+									"                }",
+									"            }",
+									"        },",
+									"        \"required\": [\"status\", \"code\", \"data\"]",
+									"    }",
+									"})",
+									"",
+									"pm.environment.set('news_schema', JSON.stringify(Object(NEWS_RESPONSE)))",
+									"pm.environment.set('news_response', JSON.stringify(Object(NEWS_SCHEMA)))",
+									"",
+									"",
+									"",
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				}
+			],
+			"description": "This folder contains a script for automated API testing of the Agree Culture API. Quality Assurance (QA) team members can use this script to perform testing on the API to ensure that it is functioning properly and meets specified requirements.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"const reusableResponseTest = (stateTest, environmentModel) => {",
+							"    const responseEnum = JSON.parse(pm.environment.get(environmentModel))",
+							"    const state = Object.keys(responseEnum)       ",
+							"",
+							"",
+							"    if(!responseEnum){",
+							"        throw new Error('Model incorrect')",
+							"    }",
+							"",
+							"    if(!state.includes(stateTest)){",
+							"        throw new Error('State incorrect')",
+							"    }",
+							"",
+							"    if(!pm.response){",
+							"        throw new Error('Response undefined')",
+							"    }",
+							"",
+							"",
+							"",
+							"    pm.test(`Response code should be ${responseEnum[stateTest]['code']}`, function () {",
+							"        pm.response.to.have.status(responseEnum[stateTest]['code']);",
+							"    });",
+							"    ",
+							"    pm.test('Content-Type should be present', function () {",
+							"        pm.response.to.have.header(\"Content-Type\");",
+							"    });",
+							"    ",
+							"    pm.test('Response body should match with requirement', function (){",
+							"        const responseBody = pm.response.json();",
+							"        pm.expect(responseBody).to.eql(responseEnum[stateTest]);",
+							"    });",
+							"",
+							"    if(Array.isArray(responseEnum[stateTest]['data'])){",
+							"        const responseBody = pm.response.json();",
+							"        pm.test('Array should be equal to requirement', function(){",
+							"            pm.expect(responseBody['data'].length).to.eql(responseEnum[stateTest]['data'].length)",
+							"        })",
+							"    }",
+							"",
+							"}",
+							"",
+							"const reusableSchemaTest = (stateTest, environmentModel) => {",
+							"",
+							" ",
+							"    const schemaEnum = JSON.parse(pm.environment.get(environmentModel))",
+							"    const state = Object.keys(schemaEnum)",
+							"",
+							"    if(!schemaEnum){",
+							"        throw new Error('Schema incorrect')",
+							"    }",
+							"",
+							"",
+							"    if(!state.includes(stateTest)){",
+							"        throw new Error('State incorrect')",
+							"    }",
+							"    if(!pm.response){",
+							"        throw new Error('Response undefined')",
+							"    }",
+							"",
+							"    pm.test(\"Response schema should be correct\", function () {",
+							"        pm.response.to.have.jsonSchema(schemaEnum[stateTest])",
+							"    })",
+							"",
+							"}",
+							"",
+							"pm.environment.set(\"reusable_response_test\", reusableResponseTest.toString());",
+							"pm.environment.set(\"reusable_schema_test\", reusableSchemaTest.toString());",
+							"",
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://ff236cea-a086-44e4-8ec4-e9c9940ab23f.mock.pstmn.io"
+		}
+	]
+}

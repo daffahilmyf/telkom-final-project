@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customer able to upload Profile Picture and fill out all the text field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e74feea3-339d-4513-8eb7-63156d4da4cd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>947bcfa0-7a0c-42cd-9c78-100f6ecbe032</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'D:\\\\GAMBAR\\\\file upload\\\\500_95.jpg'</defaultValue>
+      <description></description>
+      <id>947bcfa0-7a0c-42cd-9c78-100f6ecbe032</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

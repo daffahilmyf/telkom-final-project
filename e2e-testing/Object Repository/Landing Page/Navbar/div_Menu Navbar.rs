@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Menu Navbar</name>
+   <tag></tag>
+   <elementGuidId>01afdf81-161c-429c-b849-e0f01485efba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex-x-between.tengah</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cd583540-52e7-42a8-ba80-af96fb8fe720</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex-x-between tengah</value>
+      <webElementGuid>d91f1236-36b4-4bae-841c-e9288af82ccf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tentang KamiLayanan Berita dan Kegiatan Agree </value>
+      <webElementGuid>4e2778f7-4e3a-4199-9634-b030152e0817</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;navbar&quot;]/div[@class=&quot;flex-x-between tengah&quot;]</value>
+      <webElementGuid>87969c54-c3b4-45cc-b659-ee72015c0920</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div</value>
+      <webElementGuid>fddac0b5-b9f6-4890-b52c-2550f3130be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>bcabcc5e-bc9a-4b31-bea8-737bfb253ba3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tentang KamiLayanan Berita dan Kegiatan Agree ' or . = 'Tentang KamiLayanan Berita dan Kegiatan Agree ')]</value>
+      <webElementGuid>d61551a2-f740-4ae0-8412-ffe4d7519364</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

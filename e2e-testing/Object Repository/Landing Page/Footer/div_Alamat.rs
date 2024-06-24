@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Alamat</name>
+   <tag></tag>
+   <elementGuidId>6f4bb4a0-69c1-4d13-965b-7db3dd7ef968</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex-y-between-start.agree</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>68e2a2c5-e137-46aa-96a8-456776ca4574</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex-y-between-start agree</value>
+      <webElementGuid>393fc634-f493-448d-99ff-d103b74425c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Telkom STO KebayoranJl. Sisingamangaraja No.4, RT.2/RW.1, Selong,Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta12110Messenger (WA): +62-812-8000-6756Email: hello@agreeculture.id</value>
+      <webElementGuid>b6a1bac4-63a9-402f-bd60-4c96297428ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;footer flex-y&quot;]/div[@class=&quot;atas&quot;]/div[@class=&quot;flex-y-between-start agree&quot;]</value>
+      <webElementGuid>71d860e6-96a8-45a6-be8e-5b1f32e29e15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[2]/div/div</value>
+      <webElementGuid>3192a867-80d6-4fc5-991e-e96973f113b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya Tertarik'])[2]/following::div[3]</value>
+      <webElementGuid>93190f6b-99ca-499e-860e-ebdec5f647a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tumbuh dengan pesat bersama Agree'])[1]/following::div[3]</value>
+      <webElementGuid>85b5c52a-62a7-476d-8d43-43c7ba8686b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div</value>
+      <webElementGuid>99b3b875-63b5-40a3-ab46-37d1882402d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Telkom STO KebayoranJl. Sisingamangaraja No.4, RT.2/RW.1, Selong,Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta12110Messenger (WA): +62-812-8000-6756Email: hello@agreeculture.id' or . = 'Telkom STO KebayoranJl. Sisingamangaraja No.4, RT.2/RW.1, Selong,Kebayoran Baru, Kota Jakarta Selatan, DKI Jakarta12110Messenger (WA): +62-812-8000-6756Email: hello@agreeculture.id')]</value>
+      <webElementGuid>349d2e3a-464b-4b55-bb58-8c3a34453160</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

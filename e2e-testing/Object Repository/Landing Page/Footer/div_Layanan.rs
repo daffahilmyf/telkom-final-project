@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Layanan</name>
+   <tag></tag>
+   <elementGuidId>0ca36fab-ff41-41a5-a29d-ce6f53305ef2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[2]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.layanan</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2ad1e843-3742-4363-b73e-02b98a7986c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>layanan</value>
+      <webElementGuid>e6409f41-ce59-44fb-89b8-3a2c9acca31f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LayananAgree PartnerAgree ModalAgree MarketSmart FarmingAgreepedia</value>
+      <webElementGuid>4d24c0cf-5b70-4adc-bd43-10744064a009</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;footer flex-y&quot;]/div[@class=&quot;atas&quot;]/div[@class=&quot;layanan&quot;]</value>
+      <webElementGuid>146db94b-8e2f-4acc-863f-8153ffff512a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[2]/div/div[2]</value>
+      <webElementGuid>71f4d443-3ce9-4b22-bddc-9d9a76f0866b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email: hello@agreeculture.id'])[1]/following::div[1]</value>
+      <webElementGuid>318e81a6-be93-4cc6-8a9e-2dd32334170e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Messenger (WA): +62-812-8000-6756'])[1]/following::div[1]</value>
+      <webElementGuid>1108c6e1-2291-460b-b0ea-8cb1a9c013f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]</value>
+      <webElementGuid>90acdcce-c4e8-4866-a67b-df95d2c0b9e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'LayananAgree PartnerAgree ModalAgree MarketSmart FarmingAgreepedia' or . = 'LayananAgree PartnerAgree ModalAgree MarketSmart FarmingAgreepedia')]</value>
+      <webElementGuid>e7e89e41-3343-4381-ae90-fabefb81f778</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

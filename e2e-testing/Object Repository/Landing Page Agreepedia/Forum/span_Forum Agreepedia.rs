@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Forum Agreepedia</name>
+   <tag></tag>
+   <elementGuidId>28694cf7-c034-4313-8ef1-318320b29e24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-forum']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#home-forum > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>11a7ec7b-acdc-4527-8913-736df343d537</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Forum Agreepedia</value>
+      <webElementGuid>d2b157d2-c8e8-4800-8581-bfc06ba7bda4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-forum&quot;)/span[1]</value>
+      <webElementGuid>21cdd88b-3386-407d-810d-bfaadb60e1f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-forum']/span</value>
+      <webElementGuid>b00fb86b-d48b-4cb6-98d3-1553f179ddfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kapulaga'])[3]/following::span[1]</value>
+      <webElementGuid>9a2638de-8a6d-4588-b017-bc3c8e5a5041</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kemiri'])[3]/following::span[2]</value>
+      <webElementGuid>e5a9605d-9505-4864-bcfb-86a149e5622d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diskusikan dan tanyakan permasalahan agrikultur kamu kepada ahli di Agreepedia'])[1]/preceding::span[1]</value>
+      <webElementGuid>0cc5916b-03af-47bb-ae9b-efc5fd23f4fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perluas Jaringan Bersama Pengguna Lainnya'])[1]/preceding::span[3]</value>
+      <webElementGuid>b1ff0313-c7dd-4528-b89b-75e3b7d0d65c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[9]/span</value>
+      <webElementGuid>b45bfe14-5c5c-4fa7-807d-502a942c6690</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Forum Agreepedia' or . = 'Forum Agreepedia')]</value>
+      <webElementGuid>c18e2de4-d5e7-4acc-af5d-853535e4ee39</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

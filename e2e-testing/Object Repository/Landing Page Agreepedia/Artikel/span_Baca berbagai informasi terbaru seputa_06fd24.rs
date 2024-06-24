@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Baca berbagai informasi terbaru seputa_06fd24</name>
+   <tag></tag>
+   <elementGuidId>fa2a6167-f4e2-4a86-bd6d-10ab24477e2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-article']/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b5e344d4-87f1-4b60-8d88-65c5d45d4512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Baca berbagai informasi terbaru seputar agrikultur untuk meningkatkan pemahamanmu!</value>
+      <webElementGuid>d795b949-ad38-4899-a9a9-5d434c7fc450</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-article&quot;)/div[2]/span[1]</value>
+      <webElementGuid>63c96afb-161a-4b23-bd5b-44e189b4097f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-article']/div[2]/span</value>
+      <webElementGuid>3d70d55f-e16a-4d54-999f-1a6c78650dd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Artikel Agreepedia'])[1]/following::span[1]</value>
+      <webElementGuid>8d5d26c9-69af-4465-8055-c601b86cb67e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/following::span[3]</value>
+      <webElementGuid>8327dc0a-51be-4c08-9400-4ab423ae0ed0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Semua'])[1]/preceding::span[1]</value>
+      <webElementGuid>3be40fb9-9745-445b-b1f1-7171567fc807</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tren Minyak Atsiri Organik di Pasar Eropa'])[1]/preceding::span[2]</value>
+      <webElementGuid>17fe3e75-d149-458a-b6df-6c95023d0660</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/span</value>
+      <webElementGuid>70475c82-a3dd-426f-b8b1-0f0195226533</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Baca berbagai informasi terbaru seputar agrikultur untuk meningkatkan pemahamanmu!' or . = 'Baca berbagai informasi terbaru seputar agrikultur untuk meningkatkan pemahamanmu!')]</value>
+      <webElementGuid>1353a6e0-b063-4929-bf6a-f1851c8a65dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

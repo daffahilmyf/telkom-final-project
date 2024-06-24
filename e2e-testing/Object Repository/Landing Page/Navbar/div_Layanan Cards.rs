@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Layanan Cards</name>
+   <tag></tag>
+   <elementGuidId>6190d702-694a-47a8-a6e7-e7852f58a6d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;home-11&quot;]/a[@class=&quot;kartu&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>2a8e72b8-dbc5-4874-9d38-657489a1bf9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1671341868702</value>
+      <webElementGuid>b3741cd7-5969-4e80-b2c2-a716cabc6c00</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

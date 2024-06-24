@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customer try to update profile without uploading photo and filling out the full name text field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6cba5bb-9e0c-443b-93ee-5a92d4cee905</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that the digital learning button is working correctly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d952b43-b064-45a7-99d7-3a52c4e153db</testCaseGuid>
+</TestCaseEntity>

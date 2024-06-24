@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Navigasi</name>
+   <tag></tag>
+   <elementGuidId>48f87d9d-fb81-4fc7-9daf-91698edb4b31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[2]/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.navigasi</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b58b204b-a582-402f-8c4f-466671419d0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navigasi</value>
+      <webElementGuid>1b0cf77e-7372-4da8-b9d4-e7e55bc91c38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NavigasiTentang KamiBerita dan Kegiatan AgreeIkuti Kami</value>
+      <webElementGuid>0179f643-595a-4820-9670-b095f794af59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;footer flex-y&quot;]/div[@class=&quot;atas&quot;]/div[@class=&quot;navigasi&quot;]</value>
+      <webElementGuid>69e3960e-add3-4727-9724-013313f13d03</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[2]/div/div[3]</value>
+      <webElementGuid>8ee890db-a5d1-4751-a730-341daa8ff580</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agreepedia'])[1]/following::div[1]</value>
+      <webElementGuid>23354959-fef8-4539-9408-bd72a408feb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Smart Farming'])[1]/following::div[1]</value>
+      <webElementGuid>7d5037b4-1c53-4032-9a38-3aa6f149a0d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]</value>
+      <webElementGuid>58a14e05-17ba-47bf-8f57-1e817429aa5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'NavigasiTentang KamiBerita dan Kegiatan AgreeIkuti Kami' or . = 'NavigasiTentang KamiBerita dan Kegiatan AgreeIkuti Kami')]</value>
+      <webElementGuid>d8423ce0-4749-4eec-8d88-d5415e20e635</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

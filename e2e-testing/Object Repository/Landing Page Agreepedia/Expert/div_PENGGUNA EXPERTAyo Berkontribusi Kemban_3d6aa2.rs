@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PENGGUNA EXPERTAyo Berkontribusi Kemban_3d6aa2</name>
+   <tag></tag>
+   <elementGuidId>d948189b-0ce4-43a3-b2ff-598dd1fc6df0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-register']/div[2]/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.swiper-slide.swiper-slide-active > div.slide-atas > div.slide-bawah</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2fb5b8d4-b224-4309-9889-b935fa2e3d5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slide-bawah</value>
+      <webElementGuid>826f4289-e6a9-4cbb-9a8f-121d6c08a67d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PENGGUNA EXPERTAyo Berkontribusi Kembangkan Agrikultur Indonesia!Daftarkan diri kamu sebagai ahli untuk membantu meningkatkan kualitas pemahaman pelaku agrikultur di IndonesiaDaftar Sebagai Pengguna ExpertKeuntungan Mendaftar Sebagai Pengguna Expert AgreepediaBerbagi dengan Pengguna LainBuat artikel atau forum untuk berbagi pengetahuan dan pengalaman di bidang agrikulturDapatkan Poin BerhadiahKumpulkan poin dari setiap misi yang kamu ikuti dan tukarkan dengan hadiah menarikTingkatkan PengetahuanmuIkuti kursus bersama para ahli agrikultur dan dapatkan sertifikatnyaKonsultasi Bersama AhliDapatkan solusi permasalahan agrikultur dari para ahli di Agreepedia</value>
+      <webElementGuid>df0907f9-c74b-4c07-88ba-698ef9e6b37d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-register&quot;)/div[@class=&quot;swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden&quot;]/div[@class=&quot;swiper-wrapper&quot;]/div[@class=&quot;swiper-slide swiper-slide-active&quot;]/div[@class=&quot;slide-atas&quot;]/div[@class=&quot;slide-bawah&quot;]</value>
+      <webElementGuid>0f9fe2cb-cf75-4c05-a1ca-f62714974d05</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-register']/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>7d17fab8-d16d-4398-8abc-994c2a7154ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bantu Kembangkan Agrikultur Indonesia'])[1]/following::div[3]</value>
+      <webElementGuid>d5427fee-4c0c-4a60-af3d-5b52a8a3d619</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Benefit Rutin Bulanan'])[1]/following::div[4]</value>
+      <webElementGuid>775141ae-9c6b-4ba7-9bd3-214a811766ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div[2]/div/div</value>
+      <webElementGuid>e5d17aeb-ff1c-473b-b8db-0c8b56e658b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PENGGUNA EXPERTAyo Berkontribusi Kembangkan Agrikultur Indonesia!Daftarkan diri kamu sebagai ahli untuk membantu meningkatkan kualitas pemahaman pelaku agrikultur di IndonesiaDaftar Sebagai Pengguna ExpertKeuntungan Mendaftar Sebagai Pengguna Expert AgreepediaBerbagi dengan Pengguna LainBuat artikel atau forum untuk berbagi pengetahuan dan pengalaman di bidang agrikulturDapatkan Poin BerhadiahKumpulkan poin dari setiap misi yang kamu ikuti dan tukarkan dengan hadiah menarikTingkatkan PengetahuanmuIkuti kursus bersama para ahli agrikultur dan dapatkan sertifikatnyaKonsultasi Bersama AhliDapatkan solusi permasalahan agrikultur dari para ahli di Agreepedia' or . = 'PENGGUNA EXPERTAyo Berkontribusi Kembangkan Agrikultur Indonesia!Daftarkan diri kamu sebagai ahli untuk membantu meningkatkan kualitas pemahaman pelaku agrikultur di IndonesiaDaftar Sebagai Pengguna ExpertKeuntungan Mendaftar Sebagai Pengguna Expert AgreepediaBerbagi dengan Pengguna LainBuat artikel atau forum untuk berbagi pengetahuan dan pengalaman di bidang agrikulturDapatkan Poin BerhadiahKumpulkan poin dari setiap misi yang kamu ikuti dan tukarkan dengan hadiah menarikTingkatkan PengetahuanmuIkuti kursus bersama para ahli agrikultur dan dapatkan sertifikatnyaKonsultasi Bersama AhliDapatkan solusi permasalahan agrikultur dari para ahli di Agreepedia')]</value>
+      <webElementGuid>66c6d335-01c6-4295-be62-cf3eea0e6bb3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

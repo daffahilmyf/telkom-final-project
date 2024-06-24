@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Upload Foto Profile</name>
+   <tag></tag>
+   <elementGuidId>4313bc73-9a06-4021-94d3-2b00debd01f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.kiri > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8965e3b4-c5e3-463b-8dbe-ba115e4da67d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload Foto Profile</value>
+      <webElementGuid>928c9896-5c80-4b26-8d34-da3a5f191c50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[@class=&quot;propail&quot;]/div[@class=&quot;tambah4&quot;]/div[@class=&quot;pratinjau&quot;]/div[@class=&quot;atas&quot;]/div[@class=&quot;kiri&quot;]/div[1]</value>
+      <webElementGuid>d29c1e84-1b45-48de-b643-6439da12edf2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div/div/div/div</value>
+      <webElementGuid>f9d19ed6-6aed-47e9-8a33-59bd3ef5b5db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Profile'])[1]/following::div[1]</value>
+      <webElementGuid>caa7a8be-92cf-4383-9c62-74ab934592b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='mva.loppies@gmail.com'])[1]/following::div[6]</value>
+      <webElementGuid>5fbe82ae-c0b8-4347-ae64-e1245bd4252b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maksimal foto 1 MB dengan eksistensi JPEG, JPG, atau PNG'])[1]/preceding::div[1]</value>
+      <webElementGuid>ad16d4b0-0151-463e-95a0-1d6cbcc17ab7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div</value>
+      <webElementGuid>32eeee45-8d30-4898-8e22-7d371f166de7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Upload Foto Profile' or . = 'Upload Foto Profile')]</value>
+      <webElementGuid>24aa4cb0-8f92-4567-beed-1e579918011f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

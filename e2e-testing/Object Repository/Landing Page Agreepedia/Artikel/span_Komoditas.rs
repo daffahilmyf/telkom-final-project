@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Komoditas</name>
+   <tag></tag>
+   <elementGuidId>13c35061-7874-4cc7-8be0-7e826329c475</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[2]/div[2]/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sektor > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6d482c80-1755-4940-b598-e8f57be19532</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Komoditas</value>
+      <webElementGuid>06bd491c-09a4-4748-bf3c-0a5e379ab3af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;universal-wrap&quot;]/div[@class=&quot;agreepedia&quot;]/div[@class=&quot;konten&quot;]/div[@class=&quot;berita-utama&quot;]/div[@class=&quot;berita2&quot;]/div[@class=&quot;kanan&quot;]/div[@class=&quot;sektor&quot;]/span[1]</value>
+      <webElementGuid>9fb630b0-7f7d-450b-b046-1e1825c60915</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[2]/div[2]/div/div/div/span</value>
+      <webElementGuid>992640b0-289d-4035-ad24-8655e0d2d18d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peningkatan permintaan produk organik untuk produk minyal atsiri di pasar Eropa'])[1]/following::span[1]</value>
+      <webElementGuid>ec93714e-daa9-4d29-a00d-4ce63807c9fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tren Minyak Atsiri Organik di Pasar Eropa'])[1]/following::span[2]</value>
+      <webElementGuid>5711d4da-823b-4922-b13c-e7229ebae3a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Industri'])[1]/preceding::span[1]</value>
+      <webElementGuid>19438718-800b-4fed-a07e-e8ce8306e7e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agribisnis'])[1]/preceding::span[2]</value>
+      <webElementGuid>bbaa089d-8029-4038-a846-70b01a45ba45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/span</value>
+      <webElementGuid>233e92a2-b3b4-425e-ad60-83a976dfc9c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Komoditas' or . = 'Komoditas')]</value>
+      <webElementGuid>6efa7fb2-4e00-4eeb-a28f-49d5bac8df33</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

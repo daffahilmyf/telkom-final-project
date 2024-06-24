@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Digital Learning</name>
+   <tag></tag>
+   <elementGuidId>46e9cae7-d749-4124-93f8-b2e23c63ba6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-digital-learning']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#home-digital-learning > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3cf771e0-4d88-474e-aa2c-f6e59346f991</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Digital Learning</value>
+      <webElementGuid>f3a24dfe-59e6-45c6-8dd8-bd4faf1f103e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-digital-learning&quot;)/span[1]</value>
+      <webElementGuid>6b2533b6-553e-4abd-bb9c-178c33d37e50</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-digital-learning']/span</value>
+      <webElementGuid>157fbb67-d28d-4a7c-b4ef-2ea50ebdba7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sema Seoyardi'])[1]/following::span[2]</value>
+      <webElementGuid>19bdd858-4a65-4e08-abdd-b5397d4b6203</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agribisnis'])[2]/following::span[3]</value>
+      <webElementGuid>11f74fec-b122-49a7-87ca-31c088541aaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baca berbagai informasi terbaru seputar agrikultur untuk meningkatkan pemahamanmu!'])[2]/preceding::span[1]</value>
+      <webElementGuid>08f7b7f0-41a0-44b3-adb0-6737494bd58a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dapet Ilmu + Sertifikat, Gratis!'])[1]/preceding::span[3]</value>
+      <webElementGuid>990dc1b6-13b0-4159-839c-7d19aa6a1bce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>1818a07f-8660-486d-8cfc-c337f838194f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Digital Learning' or . = 'Digital Learning')]</value>
+      <webElementGuid>a144bc57-c04a-4d0e-868a-ef4a93a968e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

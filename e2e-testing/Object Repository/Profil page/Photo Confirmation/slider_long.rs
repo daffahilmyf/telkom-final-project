@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>slider_long</name>
+   <tag></tag>
+   <elementGuidId>c24babb8-604c-441b-a1ba-e7823e8fedb7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.MuiSlider-root.MuiSlider-colorPrimary.range</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>46047806-5374-4bce-9cb2-f539636dc830</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiSlider-root MuiSlider-colorPrimary range</value>
+      <webElementGuid>0916d519-bd1b-4f4e-91e1-b4574afd50ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[@class=&quot;propail&quot;]/div[@class=&quot;tambah4&quot;]/div[@class=&quot;pratinjau&quot;]/div[@class=&quot;atas&quot;]/div[@class=&quot;kiri&quot;]/div[@class=&quot;image-preview-easy&quot;]/span[@class=&quot;MuiSlider-root MuiSlider-colorPrimary range&quot;]</value>
+      <webElementGuid>63afd684-8a26-4860-9b82-b6acf57ee86f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div/div/div/div/span</value>
+      <webElementGuid>cb324a74-0486-4bdf-9d15-c314fc31590c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Profile'])[1]/following::span[1]</value>
+      <webElementGuid>2a36af11-28de-4916-b2c9-26d1756448f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='mva.loppies@gmail.com'])[1]/following::span[2]</value>
+      <webElementGuid>281711ad-a090-40a3-9e6c-8d077bc335ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::span[4]</value>
+      <webElementGuid>52c7b9c1-b9c4-4332-a1d3-5121f7428e08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan'])[1]/preceding::span[4]</value>
+      <webElementGuid>098c2b29-ba73-4243-8038-1b3c03e9eb58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/span</value>
+      <webElementGuid>05729129-c237-46a6-bd60-3adbbc1a9c60</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

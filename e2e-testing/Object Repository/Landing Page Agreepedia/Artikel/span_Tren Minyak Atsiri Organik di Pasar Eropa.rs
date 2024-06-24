@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Tren Minyak Atsiri Organik di Pasar Eropa</name>
+   <tag></tag>
+   <elementGuidId>79282d20-b14c-415a-8ab9-d0e8d4f0d64c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[2]/div[2]/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.berita2 > div.kanan > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0cd26d83-9238-402e-bd24-a9d980c8f85b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tren Minyak Atsiri Organik di Pasar Eropa</value>
+      <webElementGuid>c0d9ed2d-fbbb-420e-8eda-1f3cdb126f1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;universal-wrap&quot;]/div[@class=&quot;agreepedia&quot;]/div[@class=&quot;konten&quot;]/div[@class=&quot;berita-utama&quot;]/div[@class=&quot;berita2&quot;]/div[@class=&quot;kanan&quot;]/span[1]</value>
+      <webElementGuid>ec289d5e-2bf8-450a-8c90-8c679d37b39d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[2]/div[2]/div/div/span</value>
+      <webElementGuid>11aca090-d553-49ca-b401-f2605fbc427a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Semua'])[1]/following::span[1]</value>
+      <webElementGuid>8903ead9-9eca-47a8-8bfb-663daba61b79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baca berbagai informasi terbaru seputar agrikultur untuk meningkatkan pemahamanmu!'])[1]/following::span[2]</value>
+      <webElementGuid>9838ca8b-998a-4e7f-8b42-a8c8c5e6f998</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peningkatan permintaan produk organik untuk produk minyal atsiri di pasar Eropa'])[1]/preceding::span[1]</value>
+      <webElementGuid>ffead79e-acc9-4c53-9f3e-7409b8592b2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Komoditas'])[1]/preceding::span[2]</value>
+      <webElementGuid>36c8e070-e36b-4937-8176-6ce06bbe264d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/span</value>
+      <webElementGuid>d86f2aa2-c8ba-4e3e-a89b-ba5c9d5638c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Tren Minyak Atsiri Organik di Pasar Eropa' or . = 'Tren Minyak Atsiri Organik di Pasar Eropa')]</value>
+      <webElementGuid>1d524156-6da7-498f-afb8-44716b026386</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Customer didn't fill out the Name and Occupation textfield and then they press the Update Profile button</description>
+   <name>Customer try to Update Profile without filling out both textfield</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc1c2abf-ecdd-4f93-8278-757c273f8c04</testCaseGuid>
+</TestCaseEntity>

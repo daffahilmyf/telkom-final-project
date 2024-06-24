@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Agreepedia</name>
+   <tag></tag>
+   <elementGuidId>cf61d2b6-8ca9-40f4-bafc-9fa6361f18c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[3]/div[3]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b1cdff95-a7fd-4fa5-a3e4-776c1688ba28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kartu-2 flex-y-between-start</value>
+      <webElementGuid>cf1bd442-5c16-4c74-8487-c2c4e19e99d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Temukan para ahli pertanian dan pelajari ilmu baru untuk bisnis pertanian AndaBuka Agreepedia</value>
+      <webElementGuid>9b393439-b980-4de4-b2a9-1e472a6dd250</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[1]/div[@class=&quot;home-3 flex-y-between&quot;]/div[@class=&quot;holding&quot;]/div[@class=&quot;kartu-2 flex-y-between-start&quot;]</value>
+      <webElementGuid>a71f80ca-9c1c-48ae-8049-1ee4e40b7462</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[3]/div[3]/div[2]</value>
+      <webElementGuid>d6c5f4f2-fa20-42ca-9c39-fd595aad661b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya Mau Mempelajari Smart Framing'])[1]/following::div[1]</value>
+      <webElementGuid>31db0432-e5f9-4087-8c2f-1076473bacf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tingkatkan efisiensi dan produksi bisnis pertanian Anda dengan IoT Smart Farming'])[1]/following::div[2]</value>
+      <webElementGuid>e0964ced-30b3-43ea-9ceb-3410fe8cc69f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]/div[2]</value>
+      <webElementGuid>29e50bce-5f56-4a1d-ae50-2e540691021a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Temukan para ahli pertanian dan pelajari ilmu baru untuk bisnis pertanian AndaBuka Agreepedia' or . = 'Temukan para ahli pertanian dan pelajari ilmu baru untuk bisnis pertanian AndaBuka Agreepedia')]</value>
+      <webElementGuid>1760a460-60b1-40b5-bff9-d90c300feba6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

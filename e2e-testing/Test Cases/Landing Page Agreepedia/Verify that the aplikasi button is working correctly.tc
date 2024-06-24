@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that the aplikasi button is working correctly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c700a7cb-8baf-4f39-8d45-d7ffbb43abe2</testCaseGuid>
+</TestCaseEntity>

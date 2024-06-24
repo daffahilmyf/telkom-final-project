@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that the login button is working correctly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d1cd7eb-1448-4e00-adab-d08b4177322d</testCaseGuid>
+</TestCaseEntity>

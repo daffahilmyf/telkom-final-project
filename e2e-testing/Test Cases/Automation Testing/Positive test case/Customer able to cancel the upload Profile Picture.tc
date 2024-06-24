@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customer able to cancel the upload Profile Picture</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76a0ea98-bcfd-475b-8ce0-8042588ca9a4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a86d8bac-9ba5-42c1-8897-614ac95b748f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'D:\\\\GAMBAR\\\\file upload\\\\500_95.jpg'</defaultValue>
+      <description></description>
+      <id>a86d8bac-9ba5-42c1-8897-614ac95b748f</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

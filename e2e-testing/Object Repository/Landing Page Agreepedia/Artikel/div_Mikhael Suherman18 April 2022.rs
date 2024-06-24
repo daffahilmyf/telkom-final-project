@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Mikhael Suherman18 April 2022</name>
+   <tag></tag>
+   <elementGuidId>e47ebfbe-bb5b-401c-9dc9-3348ce967df1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[2]/div[2]/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.penulis</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bf197dd8-98e1-46b4-b29e-b64c14946b66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>penulis</value>
+      <webElementGuid>ee356479-0449-44d9-8197-7be12b2f6219</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mikhael Suherman18 April 2022</value>
+      <webElementGuid>d3c847df-8bca-49b7-9867-9b592dd2fb6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;universal-wrap&quot;]/div[@class=&quot;agreepedia&quot;]/div[@class=&quot;konten&quot;]/div[@class=&quot;berita-utama&quot;]/div[@class=&quot;berita2&quot;]/div[@class=&quot;kanan&quot;]/div[@class=&quot;penulis&quot;]</value>
+      <webElementGuid>6ce6237d-11c5-44f4-9a38-70b4af5bb78a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[2]/div[2]/div/div/div[2]</value>
+      <webElementGuid>2413bb33-a2c6-4e2b-9bda-e9f2aea30f1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pertanian'])[1]/following::div[1]</value>
+      <webElementGuid>f7241324-145f-4a6a-bc03-b717a07abd72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agribisnis'])[1]/following::div[1]</value>
+      <webElementGuid>56ad28c4-8d58-429a-acf1-499595c46c80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menghasilkan Daging Berkualitas dengan Rekayasa Genetika'])[1]/preceding::div[1]</value>
+      <webElementGuid>67c375cd-f056-40de-9e1b-37cd7a3a5157</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]</value>
+      <webElementGuid>481ff34f-bcba-4806-8cb6-a73af0b1d404</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Mikhael Suherman18 April 2022' or . = 'Mikhael Suherman18 April 2022')]</value>
+      <webElementGuid>3e5607f9-cb8d-4d19-a298-9b5eb290929f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

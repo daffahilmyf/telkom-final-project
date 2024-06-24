@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Aplikasi Agreepedia</name>
+   <tag></tag>
+   <elementGuidId>5a7fb661-fddf-454e-95da-4a7da73c34d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='home-aplikasi']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#home-aplikasi > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>66ab8b1f-ea14-4e09-bf03-55a7cf585ff7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aplikasi Agreepedia</value>
+      <webElementGuid>742a4e78-0863-4afe-bcf2-94ed30747835</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;home-aplikasi&quot;)/span[1]</value>
+      <webElementGuid>73f744fd-f487-4e47-ba1d-4eceb4ee4b01</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='home-aplikasi']/span</value>
+      <webElementGuid>5a7364f3-2386-4b60-bbe4-3e7a0018686b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fitur Forum akan segera hadir, tunggu ya!'])[1]/following::span[1]</value>
+      <webElementGuid>10c14d0d-5422-42f8-86c3-5d035c6f5d56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buka forum diskusimu sendiri dan bangun komunitas pertanian bersama penggiat agrikultur'])[1]/following::span[2]</value>
+      <webElementGuid>83534567-80c0-497e-a835-96f73ac177a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fitur canggih dari Agree untuk tingkatkan proses budidaya kamu'])[1]/preceding::span[1]</value>
+      <webElementGuid>ca0f1d2c-be59-42c8-a02c-37d7b1596d35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fitur Canggih Agreepedia'])[1]/preceding::span[3]</value>
+      <webElementGuid>a95af5eb-e355-44b6-b6a8-c841e4522be5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[12]/span</value>
+      <webElementGuid>92722731-e917-4631-a7ef-be746e1459da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Aplikasi Agreepedia' or . = 'Aplikasi Agreepedia')]</value>
+      <webElementGuid>5f4a5526-2f8d-4f9b-a9c1-d75d94af33fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

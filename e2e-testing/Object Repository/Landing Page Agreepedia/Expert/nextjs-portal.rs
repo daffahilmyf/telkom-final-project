@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nextjs-portal</name>
+   <tag></tag>
+   <elementGuidId>9e478644-231f-46bb-9157-3d944f276c2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='/html[1]/body[1]/nextjs-portal[1]'])[1]/following::nextjs-portal[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>nextjs-portal</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>nextjs-portal</value>
+      <webElementGuid>2752bb2f-6f63-4e10-add9-e31ff9a68b80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/nextjs-portal[1]</value>
+      <webElementGuid>e84438e2-2bcb-4d17-8889-e635a3a75b29</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/html[1]/body[1]/nextjs-portal[1]'])[1]/following::nextjs-portal[1]</value>
+      <webElementGuid>1cb92a17-9c5e-4fc3-8270-4bb63511c2fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nextjs-portal</value>
+      <webElementGuid>8b60d414-ad23-4c3f-9a64-42d35d747066</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

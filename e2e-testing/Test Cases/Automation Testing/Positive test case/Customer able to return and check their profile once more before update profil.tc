@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customer able to return and check their profile once more before update profil</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6f58e4b-324a-4aab-924c-cca9c211410e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c467a06-f676-4815-9e10-f207f818d02a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'D:\\\\GAMBAR\\\\file upload\\\\500_95.jpg'</defaultValue>
+      <description></description>
+      <id>2c467a06-f676-4815-9e10-f207f818d02a</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

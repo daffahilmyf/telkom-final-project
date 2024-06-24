@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Smart Farming</name>
+   <tag></tag>
+   <elementGuidId>e1e52f9f-8689-4576-ab87-c3e91fdb5275</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div[3]/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.kartu-2.flex-y-between-start</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>968fb12d-ed37-4e40-8dce-47bd2d1f3cf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kartu-2 flex-y-between-start</value>
+      <webElementGuid>77aa11a0-6b77-4caf-87d7-6c5b90cfef8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tingkatkan efisiensi dan produksi bisnis pertanian Anda dengan IoT Smart FarmingSaya Mau Mempelajari Smart Framing</value>
+      <webElementGuid>63b36b1e-636d-41de-89ae-9c79a8cce9c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[1]/div[@class=&quot;home-3 flex-y-between&quot;]/div[@class=&quot;holding&quot;]/div[@class=&quot;kartu-2 flex-y-between-start&quot;]</value>
+      <webElementGuid>0134f12d-0fae-4a72-a135-d7c2df68ef20</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div[3]/div[3]/div</value>
+      <webElementGuid>e370435b-55f7-43eb-8132-743bd03ef133</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Saya Mau Baca'])[3]/following::div[2]</value>
+      <webElementGuid>177a2a14-44a4-47b4-8bfe-4cace611f75e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jutaan produk berkualitas untuk menunjang bisnis Anda'])[1]/following::div[3]</value>
+      <webElementGuid>abe612d9-68ec-44fb-a679-6c2c634aec0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]/div</value>
+      <webElementGuid>3c0cee59-403f-4bb0-97dc-fc77e88e776d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tingkatkan efisiensi dan produksi bisnis pertanian Anda dengan IoT Smart FarmingSaya Mau Mempelajari Smart Framing' or . = 'Tingkatkan efisiensi dan produksi bisnis pertanian Anda dengan IoT Smart FarmingSaya Mau Mempelajari Smart Framing')]</value>
+      <webElementGuid>4d59b795-9640-495c-a72d-560fdb2313e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

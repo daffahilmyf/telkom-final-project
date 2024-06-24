@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_banner</name>
+   <tag></tag>
+   <elementGuidId>a4b8210c-05f9-43be-be22-17f8fad5bf07</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gambar.flex-y-between-start</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>acf0f570-be3c-4761-b77a-5dbcf9e4f4ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gambar flex-y-between-start</value>
+      <webElementGuid>d59a7dee-b174-4c48-8eb0-d1ee5f8bf14b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kembangkan bisnis pertanian Anda, tumbuh dengan pesat bersama AgreeTemukan jaringan petani, pemodal, dan pembeli yang sesuai dengan bisnis Anda.Saya Tertarik</value>
+      <webElementGuid>20fda789-2d0d-488a-a56b-af3613cb089a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[1]/div[1]/div[@class=&quot;home-1&quot;]/div[@class=&quot;gambar flex-y-between-start&quot;]</value>
+      <webElementGuid>49e15ccb-0cb5-41de-8ff3-dfeb167e4e20</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div</value>
+      <webElementGuid>d18f3f4f-5fcf-4b99-aa9a-0da9802e4dc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/following::div[4]</value>
+      <webElementGuid>0b24e6f9-792d-4328-9e12-296376f204a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/following::div[4]</value>
+      <webElementGuid>cb2a20b8-2bf9-4294-9afe-89ccaa72ca52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div</value>
+      <webElementGuid>6073c6b5-421e-485f-a976-a01d2e2838e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Kembangkan bisnis pertanian Anda, tumbuh dengan pesat bersama AgreeTemukan jaringan petani, pemodal, dan pembeli yang sesuai dengan bisnis Anda.Saya Tertarik' or . = 'Kembangkan bisnis pertanian Anda, tumbuh dengan pesat bersama AgreeTemukan jaringan petani, pemodal, dan pembeli yang sesuai dengan bisnis Anda.Saya Tertarik')]</value>
+      <webElementGuid>d297c4fc-1dac-4a3d-9579-4e5abbf26644</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that the artikel button is working correctly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3b56d80-2a27-419c-87f9-79b4fbfca385</testCaseGuid>
+</TestCaseEntity>
